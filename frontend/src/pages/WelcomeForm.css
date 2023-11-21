@@ -1,0 +1,94 @@
+.WelcomeContainer {
+  display: flex;
+  height: 100%;
+}
+
+.ImageContainer {
+  width: 45%;
+  background-image: url("/welcome_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.ImageContainer span {
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 2rem;
+  font-family: "Indie Flower", cursive;
+  height: fit-content;
+  max-width: 80%;
+  margin-top: 15%;
+  text-shadow: 3px 3px 4px black;
+}
+
+.WelcomeForm {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.FormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.FormContainer label {
+  margin: 20px 0 7px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.DisclaimerContainer,
+.GroupContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.DisclaimerContainer span,
+.GroupContainer span {
+  margin-left: 5px;
+}
+
+.LogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.LogoContainer img {
+  height: 80px;
+}
+
+.LogoContainer a:not(:first-child) {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .WelcomeContainer {
+    height: auto;
+  }
+  .ImageContainer {
+    display: none;
+  }
+  .WelcomeForm {
+    width: 100%;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .LogoContainer img {
+    height: 60px;
+  }
+}

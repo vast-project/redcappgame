@@ -1,0 +1,1140 @@
+[
+  {
+     "id":0,
+     "pages":[
+        {
+           "background":"/0_left.png"
+        },
+        {
+           "background":"/0_right.png"
+        }
+     ]
+  },
+  {
+     "id":1,
+     "pages":[
+        {
+           "background":"/1_left.jpg",
+           "text":{
+              "content":"C'era una volta una bambina amata da tutti. Sua nonna l'amava pi\u00f9 di tutto, ma era povera e tutto ci\u00f2 che poteva darle era un cappellino di velluto rosso.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/1_right.jpg",
+           "text":{
+              "content":"La bambina lo indossava sempre e le stava molto bene, tanto che tutti la chiamavano \"Cappuccetto Rosso\".",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/1.mp3"
+  },
+  {
+     "id":2,
+     "pages":[
+        {
+           "background":"/2_left.jpg",
+           "text":{
+              "content":"Un giorno la mamma le disse: \"Vieni Cappuccetto Rosso, prendi il cibo, questo pane e una bottiglia di vino da portare a tua nonna. Lei \u00e8 malata e deve mangiare per diventare forte e stare meglio.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/2_right.jpg",
+           "text":{
+              "content":"Parti presto perch\u00e9 il sole di mezzogiorno non ti sorprenda, per strada cammina piano e bene, non deviare perch\u00e9 potresti inciampare, rompere la bottiglia e arrivare a mani vuote da tua nonna.",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/2.mp3",
+     "question":{
+        "text":"La mamma di Cappuccetto Rosso le disse: \u201cVieni Cappuccetto Rosso, prendi il cibo, questo pane e una bottiglia di vino da portare a tua nonna. Lei \u00e8 malata e deve mangiare per diventare forte e stare meglio\". Cosa pensi che questo dimostri?",
+        "audio":[
+           "/2_question.mp3",
+           "/2_opt1.mp3",
+           "/2_opt2.mp3"
+        ],
+        "options":[
+           "Empatia",
+           "Sincerit\u00e0"
+        ]
+     },
+     "values":[
+        "Empatia",
+        "Sincerit\u00e0"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Ben fatto! Dobbiamo prenderci cura degli anziani quando sono malati.",
+              "audio":"/2_feedback_opt1.mp3"
+           },
+           {
+              "text":"Mmmm, provaci un po' di pi\u00f9. La madre di Cappuccetto Rosso si prende cura della nonna affinch\u00e9 guarisca.",
+              "audio":"/2_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     }
+  },
+  {
+     "id":3,
+     "pages":[
+        {
+           "background":"/2_left.jpg",
+           "text":{
+              "content":"E quando arrivi, non dimenticare prima di tutto di salutarla\".",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/2_right.jpg",
+           "text":{
+              "content":"\"Star\u00f2 molto attenta\", disse Cappuccetto Rosso a sua madre.",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/3.mp3"
+  },
+  {
+     "id":4,
+     "pages":[
+        {
+           "background":"/4_left.jpg",
+           "text":{
+              "content":"Sua nonna viveva lontano, nel bosco, a due chilometri e mezzo dal villaggio.",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_right.jpg",
+           "text":{
+              "content":"Non appena Cappuccetto Rosso entr\u00f2 nel bosco incontr\u00f2 un lupo.",
+              "position":"MiddleLeft"
+           }
+        }
+     ],
+     "audio":"/4.mp3",
+     "choice":{
+        "image":"/",
+        "text":"Cosa dovrebbe fare Cappuccetto Rosso? Parlare con il lupo oppure no?",
+        "audio":[
+           "/4_choice.mp3",
+           "/4_opt1.mp3",
+           "/4_opt2.mp3"
+        ],
+        "options":[
+           "Parlare",
+           "Non parlare"
+        ]
+     },
+     "values":[
+        "Fiducia",
+        "Prudenza"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Cappuccetto Rosso non sapeva che animale malvagio fosse, e non aveva affatto paura di lui.",
+              "audio":"/4_feedback_opt1.mp3"
+           },
+           {
+              "text":"\u00c8 meglio non parlare con gli sconosciuti.",
+              "audio":"/4_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     },
+     "nextSteps":[
+        10,
+        40
+     ]
+  },
+  {
+     "id":5,
+     "pages":[
+        {
+           "background":"/4_1_left.jpg",
+           "text":{
+              "content":"\"Buongiorno Cappuccetto Rosso\". \"Buongiorno, lupo\". \"Dove vai di mattina, Cappuccetto Rosso?\" \"Da mia nonna\".",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_right.jpg",
+           "text":{
+              "content":"\"Cosa porti nel grembiule?\" \"Un po' di cibo e di vino. Ieri mia madre ha cotto al forno e preparato qualcosa di buono per la mia nonna malata. Se lo mangia, star\u00e0 bene\". \"E dove abita tua nonna Cappuccetto Rosso?\"",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_1.mp3",
+     "choice":{
+        "image":"/",
+        "text":"Cappuccetto Rosso dovrebbe spiegare al lupo dove vive sua nonna?",
+        "audio":[
+           "/4_1_choice.mp3",
+           "/4_1_opt1.mp3",
+           "/4_1_opt2.mp3"
+        ],
+        "options":[
+           "S\u00cc",
+           "NO"
+        ]
+     },
+     "values":[
+        "Fiducia",
+        "Prudenza"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Cappuccetto Rosso non pensava che sarebbe stato un male dire al lupo dove viveva sua nonna.",
+              "audio":"/4_1_feedback_opt1.mp3"
+           },
+           {
+              "text":"Non forniamo informazioni personali quando non conosciamo la persona e le sue intenzioni.",
+              "audio":"/4_1_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     },
+     "nextSteps":[
+        12,
+        52
+     ]
+  },
+  {
+     "id":6,
+     "pages":[
+        {
+           "background":"/4_1_1_left.jpg",
+           "text":{
+              "content":"\u201cA un chilometro da qui, nel cuore del bosco\".",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_1_1_right.jpg",
+           "text":{
+              "content":"\"La sua casa \u00e8 sotto tre grandi querce, accanto ci sono i noci, devi averla vista\", rispose Cappuccetto Rosso.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_1.mp3",
+     "question":{
+        "text":"Il lupo chiese a Cappuccetto Rosso dove andasse e lei rispose che sarebbe andata a trovare la nonna che era malata. Poi le chiese dove abitava la nonna e Cappuccetto Rosso glielo spieg\u00f2. Cosa ha mostrato Cappuccetto Rosso al lupo?",
+        "audio":[
+           "/4_1_1_question.mp3",
+           "/4_1_1_opt1.mp3",
+           "/4_1_1_opt2.mp3"
+        ],
+        "options":[
+           "Fiducia",
+           "Gentilezza"
+        ]
+     },
+     "values":[
+        "Fiducia",
+        "Gentilezza"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Eccellente! Cappuccetto Rosso ha confidato al lupo dove si trovava sua nonna. Ma fai attenzione, NON affidiamo le nostre informazioni personali agli estranei.",
+              "audio":"/4_1_1_feedback_opt1.mp3"
+           },
+           {
+              "text":"Hmm, puoi fare di meglio. Cappuccetto Rosso essendo innocente non pensava che non fosse bene fornire le nostre informazioni personali a sconosciuti, poich\u00e9 non possiamo sapere quali siano le loro intenzioni.",
+              "audio":"/4_1_1_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     }
+  },
+  {
+     "id":7,
+     "pages":[
+        {
+           "background":"/4_1_2_left.jpg",
+           "text":{
+              "content":"Il lupo pens\u00f2: \"Quanto \u00e8 buona questa piccola creatura! Che sapore delizioso avr\u00e0. Devo agire con astuzia e catturarle entrambe\". Allora per un po' cammin\u00f2 con lei e poi le disse:",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_2_right.jpg",
+           "text":{
+              "content":"\"Guarda Cappuccetto Rosso, che bei fiori! Io ti dico che non ascolti come cantano bene gli uccellini e vai avanti noiosamente come se andassi a scuola. Guarda, tutta la natura \u00e8 in festa oggi.\"",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_2.mp3",
+     "question":{
+        "text":"Il lupo pens\u00f2 che Cappuccetto Rosso avrebbe avuto un sapore delizioso, cos\u00ec le disse di guardare i fiori e ascoltare gli uccelli. Con quello che le disse, il lupo -------- Cappuccetto Rosso",
+        "audio":[
+           "/4_1_2_question.mp3",
+           "/4_1_2_opt1.mp3",
+           "/4_1_2_opt2.mp3"
+        ],
+        "options":[
+           "Ha ingannato",
+           "Ha aiutato"
+        ]
+     },
+     "values":[
+        "Ha ingannato",
+        "Ha aiutato"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Ottimo! Il lupo ha ingannato Cappuccetto Rosso imbrogliandola.",
+              "audio":"/4_1_2_feedback_opt1.mp3"
+           },
+           {
+              "text":"Pensa di nuovo! Il lupo voleva mangiarla e per riuscire nel suo piano dovette ingannarla.",
+              "audio":"/4_1_2_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     }
+  },
+  {
+     "id":8,
+     "pages":[
+        {
+           "background":"/4_1_3_left.jpg",
+           "text":{
+              "content":"Cappuccetto Rosso alz\u00f2 lo sguardo e vide i raggi del sole danzare tra i rami, bellissimi fiori che crescevano ovunque, e pens\u00f2:",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_3_right.jpg",
+           "text":{
+              "content":"\"Se raccolgo un piccolo mazzo di fiori far\u00f2 molto felice mia nonna.\"",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"4_1_3.mp3"
+  },
+  {
+     "id":9,
+     "pages":[
+        {
+           "background":"/4_1_3_left.jpg",
+           "text":{
+              "content":"\u00c8 ancora presto e sicuramente recuperer\u00f2.\" Allora lasci\u00f2 la strada alle sue spalle e and\u00f2 nel bosco alla ricerca dei fiori pi\u00f9 belli.",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_3_right.jpg",
+           "text":{
+              "content":"Ogni volta che raccoglieva un fiore, pensava che un po' pi\u00f9 in basso ne vedeva un altro ancora pi\u00f9 bello, e cos\u00ec, di fiore in fiore, si addentrava sempre pi\u00f9 nel bosco.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_4.mp3",
+     "question":{
+        "text":"Cappuccetto Rosso fece di tutto per raccogliere dei fiori da portare a sua nonna. Cosa mostra questa azione del suo personaggio?",
+        "audio":[
+           "/4_1_4_question.mp3",
+           "/4_1_4_opt1.mp3",
+           "/4_1_4_opt2.mp3"
+        ],
+        "options":[
+           "Innocenza",
+           "Gentilezza"
+        ]
+     },
+     "values":[
+        "Innocenza",
+        "Gentilezza"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Cappuccetto Rosso \u00e8 davvero innocente, ma un atto del genere dimostra gentilezza. Continua cos\u00ec, stai andando alla grande!",
+              "audio":"/4_1_4_feedback_opt1.mp3"
+           },
+           {
+              "text":"Congratulazioni! Il dolce pensiero di Cappuccetto Rosso di raccogliere fiori dal bosco per portarli insieme al cibo e al vino alla nonna malata, dimostra solo la gentilezza nel suo carattere.",
+              "audio":"/4_1_4_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     }
+  },
+  {
+     "id":10,
+     "pages":[
+        {
+           "background":"/4_1_5_left.jpg",
+           "text":{
+              "content":"Nel frattempo il lupo and\u00f2 di corsa a casa della nonna e buss\u00f2 alla sua porta.",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_5_right.jpg",
+           "text":{
+              "content":"\"Chi \u00e8?\" \"Cappuccetto Rosso\", risponde il lupo. \"Porto cibo e vino, apri la porta.\"",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_5.mp3"
+  },
+  {
+     "id":11,
+     "pages":[
+        {
+           "background":"/4_1_6_left.jpg",
+           "text":{
+              "content":"\"Alza il catenaccio,\" grid\u00f2 la nonna, \"sono troppo debole e non riesco ad aprirlo.\"",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/4_1_6_right.jpg",
+           "text":{
+              "content":"Il lupo alz\u00f2 il chiavistello, apr\u00ec la porta e senza dire una parola and\u00f2 al letto della nonna e la mangi\u00f2. Poi indoss\u00f2 i vestiti della nonna, si sdrai\u00f2 sul letto e tir\u00f2 le tende.",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_6.mp3",
+     "question":{
+        "text":"Quando il lupo buss\u00f2 alla porta della nonna e le disse che era Cappuccetto Rosso, la nonna gli disse di alzare la serratura ed entrare. Cosa ha mostrato la nonna al lupo che l'ha ingannata?",
+        "audio":[
+           "/4_1_6_question.mp3",
+           "/4_1_6_opt1.mp3",
+           "/4_1_6_opt2.mp3"
+        ],
+        "options":[
+           "Empatia",
+           "Fiducia"
+        ]
+     },
+     "values":[
+        "Empatia",
+        "Fiducia"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Empatia significa capire come si sentono gli altri. Nella nostra storia la nonna credeva che fosse Cappuccetto Rosso a bussare alla porta.",
+              "audio":"/4_1_6_feedback_opt1.mp3"
+           },
+           {
+              "text":"Corretto! Si fidava che la voce fosse chi affermava di essere, vale a dire Cappuccetto Rosso.",
+              "audio":"/4_1_6_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     }
+  },
+  {
+     "id":12,
+     "pages":[
+        {
+           "background":"/4_1_7_left.jpg",
+           "text":{
+              "content":"Cappuccetto Rosso, dopo aver raccolto tutti i fiori che poteva portare, si ricord\u00f2 di sua nonna e si diresse verso casa.",
+              "position":"CenterRight"
+           }
+        },
+        {
+           "background":"/4_1_7_right.jpg",
+           "text":{
+              "content":"Le sembrava strano che la porta fosse aperta, e quando entr\u00f2 nella stanza della nonna prov\u00f2 una strana sensazione e pens\u00f2: \"Come mi sento a disagio oggi!",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_7.mp3"
+  },
+  {
+     "id":13,
+     "pages":[
+        {
+           "background":"/4_1_8_left.jpg",
+           "text":{
+              "content":"Altre volte mi piaceva tanto stare con mia nonna\", e disse ad alta voce: \"Buongiorno\". Ma non ottenne risposta.",
+              "position":"TopCenter"
+           }
+        },
+        {
+           "background":"/4_1_8_right.jpg",
+           "text":{
+              "content":"Allora and\u00f2 in camera da letto e apr\u00ec le tende. Sul letto vide la nonna sdraiata, con il berretto calato, e uno sguardo particolarmente strano.",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/4_1_8.mp3"
+  },
+  {
+     "id":14,
+     "pages":[
+        {
+           "background":"/4_1_9_left.jpg",
+           "text":{
+              "content":"\"Oh nonna!\", disse, \"che orecchie grandi che hai!\" \"Per sentirti meglio, figlia mia.\" \"Ma nonna, che occhi grandi che hai!\" \"Per vederti meglio, figlia mia.\" \"Nonna, perch\u00e9 hai le mani cos\u00ec grandi?\"",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/4_1_9_right.jpg",
+           "text":{
+              "content":"\"Per abbracciarti meglio, tesoro.\" \"Nonna, che bocca spaventosamente grande hai!\" \"Per mangiarti meglio!\" Detto questo, il lupo balza in avanti e mangia Cappuccetto Rosso.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_9.mp3"
+  },
+  {
+     "id":15,
+     "pages":[
+        {
+           "background":"/4_1_10_left.jpg",
+           "text":{
+              "content":"Dopo che il lupo ebbe soddisfatto la sua fame, si sdrai\u00f2 e fece un pisolino. Russava molto forte. Un cacciatore lo sent\u00ec mentre passava fuori casa e mormor\u00f2: \"Come russa la nonna! Vado a vedere se ha bisogno di qualcosa\".",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/4_1_10_right.jpg",
+           "text":{
+              "content":"Entrando vide il lupo addormentato. \"Sei qui bastardo! Ho dei punti per la tua pelliccia!\" E nel momento in cui stava per sparare pens\u00f2 che forse il lupo si era mangiato la nonna. Allora il cacciatore non spar\u00f2, per avere ancora il tempo di salvare la vecchia.",
+              "position":"TopLeft"
+           }
+        }
+     ],
+     "audio":"/4_1_10.mp3"
+  },
+  {
+     "id":16,
+     "pages":[
+        {
+           "background":"/4_1_11_left.jpg",
+           "text":{
+              "content":"Afferr\u00f2 le forbici e inizi\u00f2 a tagliare lo stomaco del lupo. Con le prime due forbici vide Cappuccetto Rosso. Tagli\u00f2 altre due volte, anche la nonna.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/4_1_11_right.jpg",
+           "text":{
+              "content":"Tagli\u00f2 ancora un po' e Cappuccetto Rosso usc\u00ec dicendo: \"Oh, che paura! Com'era buio dentro il lupo!\", e poi usc\u00ec la nonna viva, respirando appena.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_11.mp3"
+  },
+  {
+     "id":17,
+     "pages":[
+        {
+           "background":"/4_1_12_left.jpg",
+           "text":{
+              "content":"Cappuccetto Rosso raccolse rapidamente delle pietre e riemp\u00ec la pancia del lupo.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/4_1_12_right.jpg",
+           "text":{
+              "content":"Quando il lupo si svegli\u00f2 volle scappare ma le pietre erano troppo pesanti e il lupo cadde morto.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_12.mp3",
+     "question":{
+        "text":"Quando il lupo tent\u00f2 di rialzarsi con la pancia piena di sassi, non ci riusc\u00ec e cadde morto perch\u00e9 le pietre erano troppo pesanti. Questo era la ------- del lupo.",
+        "audio":[
+           "/4_1_12_question.mp3",
+           "/4_1_12_opt1.mp3",
+           "/4_1_12_opt2.mp3"
+        ],
+        "options":[
+           "ricompensa",
+           "punizione"
+        ]
+     },
+     "values":[
+        "ricompensa",
+        "punizione"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Proviamo di nuovo! Il lupo fece del male a Cappuccetto Rosso e a sua nonna dopo averle ingannate e poi mangiate.",
+              "audio":"/4_1_12_feedback_opt1.mp3"
+           },
+           {
+              "text":"Fantastico! Il lupo fu punito per il male che aveva fatto a Cappuccetto Rosso e a sua nonna.",
+              "audio":"/4_1_12_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     }
+  },
+  {
+     "id":18,
+     "pages":[
+        {
+           "background":"/4_1_13_left.jpg",
+           "text":{
+              "content":"Cappuccetto Rosso, la nonna e il cacciatore erano molto felici. Il cacciatore scuoi\u00f2 il lupo e torn\u00f2 a casa. La nonna mangi\u00f2 il cibo, il pane, bevve del vino e si rinforz\u00f2.",
+              "position":"TopCenter"
+           }
+        },
+        {
+           "background":"/4_1_13_right.jpg",
+           "text":{
+              "content":"Allora Cappuccetto Rosso disse alla nonna: \"Finch\u00e9 vivr\u00f2 non andr\u00f2 pi\u00f9 fuori strada, come mi ha detto mia madre, perch\u00e9 i pericoli sono tanti\".",
+              "position":"TopLeft"
+           }
+        }
+     ],
+     "audio":"/4_1_13.mp3",
+     "end": true,
+     "endStep": 68
+  },
+  {
+     "id":19,
+     "pages":[
+        {
+           "background":"/4_2_left.jpg",
+           "text":{
+              "content":"Il lupo ha cercato di ingannarla e di portarla fuori dal sentiero. Ma Cappuccetto Rosso si fece furba e and\u00f2 senza indugio a casa della nonna.",
+              "position":"MiddleCenter"
+           }
+        },
+        {
+           "background":"/4_2_right.jpg",
+           "text":{
+              "content":"Disse a sua nonna che il lupo l'aveva salutata, ma aveva una malizia negli occhi e sicuramente l'avrebbe mangiata se non fosse stata in pubblico.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_2.mp3",
+     "question":{
+        "text":"Andando nella bosco, Cappuccetto Rosso incontr\u00f2 un lupo e poich\u00e9 non lo conosceva, decise di non parlargli e di proseguire per la sua strada come le aveva detto sua madre. Cosa ha mostrato Cappuccetto Rosso nei confronti della sua mamma?",
+        "audio":[
+           "/4_2_question.mp3",
+           "/4_2_opt1.mp3",
+           "/4_2_opt2.mp3"
+        ],
+        "options":[
+           "Sfida",
+           "Obbedienza"
+        ]
+     },
+     "values":[
+        "Sfida",
+        "Obbedienza"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Proviamo di nuovo! Sfidiamo qualcuno quando non obbediamo a ci\u00f2 che ci dice.",
+              "audio":"/4_2_feedback_opt1.mp3"
+           },
+           {
+              "text":"Fantastico! Cappuccetto Rosso ha obbedito alle istruzioni di sua madre ma sapeva anche che non bisognava parlare con gli sconosciuti.",
+              "audio":"/4_2_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     }
+  },
+  {
+     "id":20,
+     "pages":[
+        {
+           "background":"/4_2_1_left.jpg",
+           "text":{
+              "content":"\"Non aver paura,\" le disse la nonna, \"chiudiamo la porta e se viene qui non potr\u00e0 entrare\".",
+              "position":"TopCenter"
+           }
+        },
+        {
+           "background":"/4_2_1_right.jpg",
+           "text":{
+              "content":"Infatti dopo poco bussarono alla porta ed era il lupo: \"Apri nonna, sono Cappuccetto Rosso e ti ho portato da mangiare\".",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_1.mp3",
+     "question":{
+        "text":"Quando il lupo buss\u00f2 alla porta della nonna e le disse che era Cappuccetto Rosso, cosa stava effettivamente cercando di fare?",
+        "audio":[
+           "/4_2_1_question.mp3",
+           "/4_2_1_opt1.mp3",
+           "/4_2_1_opt2.mp3"
+        ],
+        "options":[
+           "Ingannarla",
+           "Aiutarla"
+        ]
+     },
+     "values":[
+        "Ingannarla",
+        "Aiutarla"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Eccellente! Il lupo infatti cerc\u00f2 di ingannare la nonna fingendosi Cappuccetto Rosso.",
+              "audio":"/4_2_1_feedback_opt1.mp3"
+           },
+           {
+              "text":"Pensa di nuovo! Il lupo non aveva intenzione di aiutare la nonna, ma di indurla ad aprire con l'inganno e poi mangiarla.",
+              "audio":"/4_2_1_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     }
+  },
+  {
+     "id":21,
+     "pages":[
+        {
+           "background":"/4_1_5_left.jpg",
+           "text":{
+              "content":"La nonna e Cappuccetto Rosso non parlarono n\u00e9 aprirono la porta. Il lupo buss\u00f2 una, due, tre volte e alla fine sal\u00ec sul tetto.",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_5_right.jpg",
+           "text":{
+              "content":"Aspettava che Cappuccetto Rosso uscisse per afferrarla e mangiarla. Ma la nonna cap\u00ec il suo piano.",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_2.mp3"
+  },
+  {
+     "id":22,
+     "pages":[
+        {
+           "background":"/4_2_3_left.jpg",
+           "text":{
+              "content":"In casa c'era un grande abbeveratoio e la nonna disse a Cappuccetto Rosso: \"Vieni, cuciniamo.",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_2_3_right.jpg",
+           "text":{
+              "content":"Ho delle salsicce di campagna da arrostire, metti l'acqua sul fuoco.\"",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_3.mp3"
+  },
+  {
+     "id":23,
+     "pages":[
+        {
+           "background":"/4_2_4_left.jpg",
+           "text":{
+              "content":"Cappuccetto Rosso aiut\u00f2 la nonna a cucinare.",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_2_4_right.jpg",
+           "text":{
+              "content":"Ben presto l'odore delle salsicce arrostite raggiunse le narici del lupo.",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_4.mp3",
+     "question":{
+        "text":"La nonna cap\u00ec che il piano del lupo era quello di aspettare sul tetto che Cappuccetto Rosso uscisse di casa per mangiarla, cos\u00ec invit\u00f2 Cappuccetto Rosso a cucinare insieme. Cucinare con la nipote, cosa dimostra?",
+        "audio":[
+           "/4_2_4_question.mp3",
+           "/4_2_4_opt1.mp3",
+           "/4_2_4_opt2.mp3"
+        ],
+        "options":[
+           "Competizione",
+           "Cooperazione"
+        ]
+     },
+     "values":[
+        "Competizione",
+        "Cooperazione"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Competere significa cercare di dimostrare che sono il migliore o sono migliore di qualcuno. La nonna non voleva competere con Cappuccetto Rosso ma collaborare con lei.",
+              "audio":"/4_2_4_feedback_opt1.mp3"
+           },
+           {
+              "text":"Corretto! La nonna lavorava con Cappuccetto Rosso per preparare il cibo.",
+              "audio":"/4_2_4_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     }
+  },
+  {
+     "id":24,
+     "pages":[
+        {
+           "background":"/2_left.jpg",
+           "text":{
+              "content":"Segu\u00ec il suo naso e si allung\u00f2 per vedere cosa stavano preparando in casa. Ma non riusc\u00ec a resistere e cadde dal tetto in un abbeveratoio traboccante e anneg\u00f2.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/2_right.jpg",
+           "text":{
+              "content":"Cappuccetto Rosso \u00e8 tornata a casa e da allora nessuno l'ha pi\u00f9 presa in giro.",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/4_2_5.mp3",
+     "question":{
+        "text":"Quando l'odore delle salsicce arriv\u00f2 alle narici del lupo, questi si allung\u00f2 per vedere cosa stavano preparando, poi cadde nella mangiatoia e anneg\u00f2. Questo era il ------- del lupo.",
+        "audio":[
+           "/4_2_5_question.mp3",
+           "/4_2_5_opt1.mp3",
+           "/4_2_5_opt2.mp3"
+        ],
+        "options":[
+           "ricompensa",
+           "punizione"
+        ]
+     },
+     "values":[
+        "ricompensa",
+        "punizione"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Proviamo di nuovo! Il lupo voleva fare del male a Cappuccetto Rosso poich\u00e9 aspettava che lei uscisse di casa per mangiarla.",
+              "audio":"/4_2_5_feedback_opt1.mp3"
+           },
+           {
+              "text":"Fantastico! Il lupo fu punito per il male che voleva fare a Cappuccetto Rosso.",
+              "audio":"/4_2_5_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     },
+     "end": true,
+     "endStep": 68
+  },
+  {
+     "id":25,
+     "pages":[
+        {
+           "background":"/4_1_1_left.jpg",
+           "text":{
+              "content":"\"Da qualche parte oltre il bosco\", risponde vagamente Cappuccetto Rosso al lupo, con l'intenzione di andare direttamente a casa della nonna.",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_1_1_right.jpg",
+           "text":{
+              "content":"Il lupo pens\u00f2: \"Quanto \u00e8 buona questa piccola! Che delizioso sapore avr\u00e0\".",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_2_1.mp3"
+  },
+  {
+     "id":26,
+     "pages":[
+        {
+           "background":"/4_1_2_left.jpg",
+           "text":{
+              "content":"Devo agire con astuzia e catturarle entrambe.\"",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_2_right.jpg",
+           "text":{
+              "content":"Allora la salut\u00f2 e cominci\u00f2 a seguirla di nascosto senza che lei se ne accorgesse.",
+              "position":"Top Center"
+           }
+        }
+     ],
+     "audio":"/4_1_2_2.mp3"
+  },
+  {
+     "id":27,
+     "pages":[
+        {
+           "background":"/4_1_7_left.jpg",
+           "text":{
+              "content":"\"Cappuccetto Rosso arriv\u00f2 a casa della nonna e buss\u00f2 alla porta: \"Chi \u00e8?\" disse la nonna,",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_7_right.jpg",
+           "text":{
+              "content":"\"Cappuccetto Rosso\", rispose, \"ti porto cibo e vino, apri.\" \"Alza il catenaccio,\" grid\u00f2 la nonna, \"sono troppo debole e non riesco ad aprirlo.\"",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_2_3.mp3"
+  },
+  {
+     "id":28,
+     "pages":[
+        {
+           "background":"/4_2_left.jpg",
+           "text":{
+              "content":"Cappuccetto Rosso alz\u00f2 il catenaccio, apr\u00ec la porta ed entr\u00f2.",
+              "position":"MiddleCenter"
+           }
+        },
+        {
+           "background":"/4_2_right.jpg",
+           "text":{
+              "content":"Ha raccontato a sua nonna che il lupo le aveva detto buongiorno, le aveva chiesto dove andava e dove viveva, ma poich\u00e9 non diamo informazioni personali agli sconosciuti, lei non gli aveva rivelato dove viveva, gli aveva risposto solo vagamente che era da qualche parte al di l\u00e0 del bosco.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_2_4.mp3"
+  },
+  {
+     "id":29,
+     "pages":[
+        {
+           "background":"/4_2_1_left.jpg",
+           "text":{
+              "content":"\"Non aver paura,\" le disse la nonna, \"chiudiamo la porta e se viene qui non potr\u00e0 entrare.\"",
+              "position":"TopCenter"
+           }
+        },
+        {
+           "background":"/4_2_1_right.jpg",
+           "text":{
+              "content":"Infatti dopo poco bussarono alla porta ed era il lupo: \"Apri nonna, sono Cappuccetto Rosso e ti ho portato da mangiare\".",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_1.mp3",
+     "question":{
+        "text":"Quando il lupo buss\u00f2 alla porta della nonna e le disse che era Cappuccetto Rosso, cosa stava effettivamente cercando di fare?",
+        "audio":[
+           "/4_2_1_question.mp3",
+           "/4_2_1_opt1.mp3",
+           "/4_2_1_opt2.mp3"
+        ],
+        "options":[
+           "Ingannarla",
+           "Aiutarla"
+        ]
+     },
+     "values":[
+        "Ingannarla",
+        "Aiutarla"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Eccellente! Il lupo infatti cerc\u00f2 di ingannare la nonna fingendosi Cappuccetto Rosso.",
+              "audio":"/4_2_1_feedback_opt1.mp3"
+           },
+           {
+              "text":"Pensa di nuovo! Il lupo non aveva intenzione di aiutare la nonna ma di indurla ad aprire con l'inganno e poi mangiarla.",
+              "audio":"/4_2_1_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     }
+  },
+  {
+     "id":30,
+     "pages":[
+        {
+           "background":"/4_1_5_left.jpg",
+           "text":{
+              "content":"La nonna e Cappuccetto Rosso non parlarono n\u00e9 aprirono la porta. Il lupo buss\u00f2 una, due, tre volte e alla fine sal\u00ec sul tetto.",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_5_right.jpg",
+           "text":{
+              "content":"Aspettava che Cappuccetto Rosso uscisse per afferrarla e mangiarla. Ma la nonna cap\u00ec il suo piano.",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_2.mp3"
+  },
+  {
+     "id":31,
+     "pages":[
+        {
+           "background":"/4_2_3_left.jpg",
+           "text":{
+              "content":"In casa c'era un grande abbeveratoio e la nonna disse a Cappuccetto Rosso: \"Vieni, cuciniamo.",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_2_3_right.jpg",
+           "text":{
+              "content":"Ho delle salsicce di campagna da arrostire, metti l'acqua sul fuoco.\"",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_3.mp3"
+  },
+  {
+     "id":32,
+     "pages":[
+        {
+           "background":"/4_2_4_left.jpg",
+           "text":{
+              "content":"Cappuccetto Rosso aiut\u00f2 la nonna in cucina.",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_2_4_right.jpg",
+           "text":{
+              "content":"Ben presto l'odore delle salsicce arrostite raggiunse le narici del lupo.",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_4.mp3",
+     "question":{
+        "text":"La nonna cap\u00ec che il piano del lupo era quello di aspettare sul tetto che Cappuccetto Rosso uscisse di casa per mangiarla, cos\u00ec invit\u00f2 Cappuccetto Rosso a cucinare insieme. Cucinare con la nipote, cosa dimostra?",
+        "audio":[
+           "/4_2_4_question.mp3",
+           "/4_2_4_opt1.mp3",
+           "/4_2_4_opt2.mp3"
+        ],
+        "options":[
+           "competizione",
+           "Cooperazione"
+        ]
+     },
+     "values":[
+        "competizione",
+        "Cooperazione"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Competere significa cercare di dimostrare che sono il migliore o sono migliore di qualcuno. La nonna non voleva competere con Cappuccetto Rosso ma collaborare con lei.",
+              "audio":"/4_2_4_feedback_opt1.mp3"
+           },
+           {
+              "text":"Corretto! La nonna lavorava con Cappuccetto Rosso per preparare il cibo.",
+              "audio":"/4_2_4_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     }
+  },
+  {
+     "id":33,
+     "pages":[
+        {
+           "background":"/2_left.jpg",
+           "text":{
+              "content":"Segu\u00ec il suo naso e si allung\u00f2 per vedere cosa stavano preparando in casa. Ma non riusc\u00ec a resistere e cadde dal tetto in un abbeveratoio traboccante e anneg\u00f2.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/2_right.jpg",
+           "text":{
+              "content":"Cappuccetto Rosso \u00e8 tornata a casa e da allora nessuno l'ha pi\u00f9 presa in giro.",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/4_2_5.mp3",
+     "question":{
+        "text":"Quando l'odore delle salsicce arriv\u00f2 alle narici del lupo, questi si allung\u00f2 per vedere cosa stavano preparando, poi cadde nella mangiatoia e anneg\u00f2. Questa era la ------- del lupo.",
+        "audio":[
+           "/4_2_5_question.mp3",
+           "/4_2_5_opt1.mp3",
+           "/4_2_5_opt2.mp3"
+        ],
+        "options":[
+           "ricompensa",
+           "punizione"
+        ]
+     },
+     "values":[
+        "ricompensa",
+        "punizione"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Proviamo di nuovo! Il lupo voleva fare del male a Cappuccetto Rosso poich\u00e9 aspettava che lei uscisse di casa per mangiarla.",
+              "audio":"/4_2_5_feedback_opt1.mp3"
+           },
+           {
+              "text":"Fantastico! Il lupo fu punito per il male che voleva fare a Cappuccetto Rosso.",
+              "audio":"/4_2_5_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continuare"
+     },
+     "end": true,
+     "endStep": 68
+  },
+  {
+     "id":34,
+     "pages":[
+        {
+           "background":"/0_left.png"
+        },
+        {
+           "background":"/0_right.png"
+        }
+     ],
+     "lastPage": true,
+     "evaluation": {
+      "show": true,
+      "label": "Quanto ti è piaciuta la storia?"
+     }
+  }
+]

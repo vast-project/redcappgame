@@ -1,0 +1,122 @@
+.Page {
+  position: relative;
+}
+
+.TextContainer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.TopLeft {
+  /* No CSS needed */
+}
+.TopCenter {
+  justify-content: center;
+}
+.TopRight {
+  justify-content: end;
+}
+.MiddleLeft {
+  align-items: center;
+}
+.MiddleCenter {
+  align-items: center;
+  justify-content: center;
+}
+.MiddleRight {
+  justify-content: end;
+  align-items: center;
+}
+.BottomLeft {
+  align-items: end;
+}
+.BottomCenter {
+  justify-content: center;
+  align-items: end;
+}
+.BottomRight {
+  justify-content: end;
+  align-items: end;
+}
+
+.Text {
+  padding: 10px;
+  margin: 20px;
+  color: black;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.74);
+  border-radius: 10px;
+  font-size: 1.4rem;
+  max-width: 400px;
+  height: fit-content;
+  font-family: "Besley", serif;
+  line-height: 1.4;
+}
+
+.Title {
+  padding: 0;
+  margin: 0;
+  font-size: 4rem;
+  font-family: "Indie Flower", cursive;
+  white-space: pre-line;
+  background: none;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 4px black;
+}
+
+.Credits {
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 0.8rem;
+  font-family: "Besley", serif;
+  background: none;
+  max-width: 80%;
+  white-space: pre-line;
+  background-color: rgba(255, 255, 255, 0.74);
+}
+
+.CreditsLeft {
+  padding: 30px;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-family: "Besley", serif;
+  background: none;
+  max-width: 80%;
+  white-space: pre-line;
+  background-color: rgba(255, 255, 255, 0.74);
+}
+
+@media only screen and (max-width: 1000px) {
+  .Text {
+    font-size: 1.1rem;
+  }
+  .Title {
+    font-size: 2.8rem;
+  }
+  .CreditsLeft {
+    font-size: 0.8rem;
+    padding: 10px;
+    line-height: 1.3;
+  }
+  .Credits {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Text {
+    font-size: 1rem;
+  }
+  .Title {
+    font-size: 2.5rem;
+  }
+  .CreditsLeft {
+    padding: 10px;
+    line-height: 1.2;
+  }
+}

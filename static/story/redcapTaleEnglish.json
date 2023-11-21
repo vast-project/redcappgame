@@ -1,0 +1,1155 @@
+[
+  {
+     "id":0,
+     "pages":[
+        {
+           "background":"/0_left.jpg"
+        },
+        {
+           "background":"/0_right.jpg",
+           "text":{
+            "content":"Little Red \n Riding Hood",
+            "position":"MiddleCenter",
+            "class":"Title"
+            }
+        }
+     ]
+  },
+  {
+     "id":1,
+     "pages":[
+        {
+           "background":"/1_left.jpg",
+           "text":{
+              "content":"Once upon a time there was a little girl who was loved by everyone. Her grandmother loved her most of all, but she was poor and all she could give her was a little red velvet cap.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/1_right.jpg",
+           "text":{
+              "content":"The little girl always wore it and it suited her very well, so everyone called her \"Little Red Riding Hood\".",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/1.mp3"
+  },
+  {
+     "id":2,
+     "pages":[
+        {
+           "background":"/2_left.jpg",
+           "text":{
+              "content":"One day her mother said to her: \"Come Little Red Riding Hood, get some food, this bread and a bottle of wine to take to your grandmother. She is sick and must eat to get strong and get well.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/2_right.jpg",
+           "text":{
+              "content":"Leave early so that the midday sun doesn't overtake you, and on the way, walk quietly and well, don't go out of your way because you might trip and the bottle will break and you'll go to your grandmother empty-handed\".",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/2.mp3",
+     "question":{
+        "text":"Little Red Riding Hood's mother said to her: \u201cCome Little Red Riding Hood, get some food, this bread and a bottle of wine to take to your grandmother. She is sick and needs to eat to get stronger and get better\". What do you think this shows?",
+        "audio":[
+           "/2_question.mp3",
+           "/2_opt1.mp3",
+           "/2_opt2.mp3"
+        ],
+        "options":[
+           "Empathy",
+           "Sincerity"
+        ]
+     },
+     "values":[
+        "Empathy",
+        "Sincerity"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Well done! We must take care of the elderly when they are sick.",
+              "audio":"/2_feedback_opt1.mp3"
+           },
+           {
+              "text":"Mmmm, try a little harder. Little Red Riding Hood's mother takes care of the grandmother for her to get well.",
+              "audio":"/2_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     }
+  },
+  {
+     "id":3,
+     "pages":[
+        {
+           "background":"/2_left.jpg",
+           "text":{
+              "content":"\"And when you arrive, don't forget first of all to greet her\".",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/2_right.jpg",
+           "text":{
+              "content":"\"I will be very careful\", said Little Red Riding Hood to her mother.",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/3.mp3"
+  },
+  {
+     "id":4,
+     "pages":[
+        {
+           "background":"/4_left.jpg",
+           "text":{
+              "content":"Her grandmother lived far away in the forest, two and a half kilometers from the village.",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_right.jpg",
+           "text":{
+              "content":"As soon as Little Red Riding Hood entered the forest she met a wolf.",
+              "position":"MiddleLeft"
+           }
+        }
+     ],
+     "audio":"/4.mp3",
+     "choice":{
+        "image":"/",
+        "text":"What should Little Red Riding Hood do? Talk to the wolf or not?",
+        "audio":[
+           "/4_choice.mp3",
+           "/4_opt1.mp3",
+           "/4_opt2.mp3"
+        ],
+        "options":[
+           "To speak",
+           "Not to speak"
+        ]
+     },
+     "values":[
+        "Trust",
+        "Prudence"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Little Red Riding Hood did not know what an evil animal he was, and was not at all afraid of him.",
+              "audio":"/4_feedback_opt1.mp3"
+           },
+           {
+              "text":"It is better not to talk to strangers.",
+              "audio":"/4_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     },
+     "nextSteps":[
+        10,
+        40
+     ]
+  },
+  {
+     "id":5,
+     "pages":[
+        {
+           "background":"/4_1_left.jpg",
+           "text":{
+              "content":"\"Good morning Little Red Riding Hood\". \"Good morning, wolf\". \"Where are you going in the morning, Little Red Riding Hood?\" \"To my grandmother\".",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_right.jpg",
+           "text":{
+              "content":"\"What do you carry on your apron?\" \"A little food and wine. Yesterday my mother baked in the oven and made something good for my sick grandmother. If she eats it she will be well\". \"And where does your grandmother live, Little Red Riding Hood?\"",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_1.mp3",
+     "choice":{
+        "image":"/",
+        "text":"Should Red Riding Hood explain to the wolf where her grandmother lives?",
+        "audio":[
+           "/4_1_choice.mp3",
+           "/4_1_opt1.mp3",
+           "/4_1_opt2.mp3"
+        ],
+        "options":[
+           "Yes",
+           "No"
+        ]
+     },
+     "values":[
+        "Trust",
+        "Prudence"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Little Red Riding Hood didn't think it might be a bad thing to tell the wolf where her grandmother lived.",
+              "audio":"/4_1_feedback_opt1.mp3"
+           },
+           {
+              "text":"We don't give out personal information when we don't know the person and their intentions.",
+              "audio":"/4_1_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     },
+     "nextSteps":[
+        12,
+        52
+     ]
+  },
+  {
+     "id":6,
+     "pages":[
+        {
+           "background":"/4_1_1_left.jpg",
+           "text":{
+              "content":"A kilometer from here, deeper into the forest.",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_1_1_right.jpg",
+           "text":{
+              "content":"Her house stands under three large oak trees, the walnut trees are next to it, you must have \"seen it\", replied Little Red Riding Hood.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_1.mp3",
+     "question":{
+        "text":"The wolf asked Little Red Riding Hood where she was going and she replied that she was going to see her grandmother who is sick. Then he asked her where her grandmother lived and the little red riding hood explained to him. What did little red riding hood show the wolf?",
+        "audio":[
+           "/4_1_1_question.mp3",
+           "/4_1_1_opt1.mp3",
+           "/4_1_1_opt2.mp3"
+        ],
+        "options":[
+           "Trust",
+           "Kindness"
+        ]
+     },
+     "values":[
+        "Trust",
+        "Kindness"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Excellent! Little Red Riding Hood entrusted the wolf with her grandmother's whereabouts. But be careful, we do NOT share our personal information to strangers.",
+              "audio":"/4_1_1_feedback_opt1.mp3"
+           },
+           {
+              "text":"Hmm, you can do better. The little red riding hood being innocent did not think that it is not good to give our personal information to strangers since we cannot know what their intentions are.",
+              "audio":"/4_1_1_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     }
+  },
+  {
+     "id":7,
+     "pages":[
+        {
+           "background":"/4_1_2_left.jpg",
+           "text":{
+              "content":"The wolf thought \"how good this little thing is! How delicious she will taste. I must act cunningly and catch her\". So he walked with her for a while and then said to her:",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_2_right.jpg",
+           "text":{
+              "content":"\"Look Little Red Riding Hood, what beautiful flowers! I think you don't listen to how beautifully the birds sing and you go on listlessly as if you were going to school. Look, all nature is celebrating today\".",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_2.mp3",
+     "question":{
+        "text":"The wolf thought Little Red Riding Hood would taste delicious, so he told her to look at the flowers and listen to the birds. With what he told her, the wolf -------- the little red riding hood",
+        "audio":[
+           "/4_1_2_question.mp3",
+           "/4_1_2_opt1.mp3",
+           "/4_1_2_opt2.mp3"
+        ],
+        "options":[
+           "Deceived",
+           "Helped"
+        ]
+     },
+     "values":[
+        "Deceit",
+        "Help"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Very well! The wolf tricked Little Red Riding Hood into deceiving her.",
+              "audio":"/4_1_2_feedback_opt1.mp3"
+           },
+           {
+              "text":"Think again! The wolf wanted to eat her and to succeed in his plan he had to deceive her.",
+              "audio":"/4_1_2_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     }
+  },
+  {
+     "id":8,
+     "pages":[
+        {
+           "background":"/4_1_3_left.jpg",
+           "text":{
+              "content":"Little Red Riding Hood looked up and saw the sunbeams dancing among the branches, beautiful flowers growing everywhere and she thought:",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_3_right.jpg",
+           "text":{
+              "content":"\"If I pick a small bouquet of flowers I will make my grandmother very happy\".",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"4_1_3.mp3"
+  },
+  {
+     "id":9,
+     "pages":[
+        {
+           "background":"/4_1_3_left.jpg",
+           "text":{
+              "content":"It is still early and I will surely catch up\". So she left the road behind her and went into the forest to find the most beautiful flowers.",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_3_right.jpg",
+           "text":{
+              "content":"Every time she took a flower, she thought that a little further down she saw another even more beautiful one, and so, from flower to flower, she went deeper and deeper into the forest.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_4.mp3",
+     "question":{
+        "text":"Little Red Riding Hood went out of her way to cut flowers to take to her grandmother. What does this act show about her character?",
+        "audio":[
+           "/4_1_4_question.mp3",
+           "/4_1_4_opt1.mp3",
+           "/4_1_4_opt2.mp3"
+        ],
+        "options":[
+           "Innocence",
+           "Kindness"
+        ]
+     },
+     "values":[
+        "Innocence",
+        "Kindness"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Little Red Riding Hood is indeed innocent, but such an act shows kindness. Keep up the good work, you're doing great!",
+              "audio":"/4_1_4_feedback_opt1.mp3"
+           },
+           {
+              "text":"Congratulations! Little Red Riding Hood's sweet thought of picking flowers from the forest to take along with the food and wine to her sick grandmother only shows kindness in her character.",
+              "audio":"/4_1_4_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     }
+  },
+  {
+     "id":10,
+     "pages":[
+        {
+           "background":"/4_1_5_left.jpg",
+           "text":{
+              "content":"In the meantime, the wolf came running to the grandmother's house and knocks on her door.",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_5_right.jpg",
+           "text":{
+              "content":"\"Who is it?\" \"Little Red Riding Hood\", replies the wolf. \"I bring food and wine, open the door\".",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_5.mp3"
+  },
+  {
+     "id":11,
+     "pages":[
+        {
+           "background":"/4_1_6_left.jpg",
+           "text":{
+              "content":"\"Lift the bolt\", cried the grandmother, \"I am too weak and cannot open it\".",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/4_1_6_right.jpg",
+           "text":{
+              "content":"The wolf lifted the latch, opened the door and without a word went to the grandmother's bed and ate her. Then he put on grandma's clothes, lay down on her bed and drew the curtains.",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_6.mp3",
+     "question":{
+        "text":"When the wolf knocked on the door to Grandma and told her that he was Little Red Riding Hood, Grandma told him to lift the latch and come in. What did the grandmother show to the wolf that tricked her?",
+        "audio":[
+           "/4_1_6_question.mp3",
+           "/4_1_6_opt1.mp3",
+           "/4_1_6_opt2.mp3"
+        ],
+        "options":[
+           "Empathy",
+           "Trust"
+        ]
+     },
+     "values":[
+        "Empathy",
+        "Trust"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Empathy means understanding how others feel. In our story, the grandmother believed that it was Little Red Riding Hood who knocked on the door.",
+              "audio":"/4_1_6_feedback_opt1.mp3"
+           },
+           {
+              "text":"Correct! He trusted the voice to be who it claimed to be, namely Little Red Riding Hood.",
+              "audio":"/4_1_6_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     }
+  },
+  {
+     "id":12,
+     "pages":[
+        {
+           "background":"/4_1_7_left.jpg",
+           "text":{
+              "content":"Little Red Riding Hood, after gathering as many flowers as she could carry, remembered her grandmother and made her way home.",
+              "position":"CenterRight"
+           }
+        },
+        {
+           "background":"/4_1_7_right.jpg",
+           "text":{
+              "content":"She found it strange that the door was open and when she entered Grandma's room she felt a strange feeling and thought \"How uncomfortable I feel today!",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_7.mp3"
+  },
+  {
+     "id":13,
+     "pages":[
+        {
+           "background":"/4_1_8_left.jpg",
+           "text":{
+              "content":"Other times I liked being with my grandmother so much\", and loudly said, \"Good morning\". But she got no answer.",
+              "position":"TopCenter"
+           }
+        },
+        {
+           "background":"/4_1_8_right.jpg",
+           "text":{
+              "content":"So she went to bed and opened the curtains. On the bed she saw her grandmother lying, with her cap pulled down, and a particularly strange look.",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/4_1_8.mp3"
+  },
+  {
+     "id":14,
+     "pages":[
+        {
+           "background":"/4_1_9_left.jpg",
+           "text":{
+              "content":"\"Oh grandma!\", she said, \"what big ears you have!\" \"To hear you better, my child\". \"But, grandma, what big eyes you have!\" \"To see you better, my child\". \"Grandma, why do you have such big hands?\"",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/4_1_9_right.jpg",
+           "text":{
+              "content":"\"To hug you better, baby\". \"Grandma what a scary big mouth you have!\" \"To eat you better!\" As soon as the wolf said this, it leaps forward and eats Little Red Riding Hood.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_9.mp3"
+  },
+  {
+     "id":15,
+     "pages":[
+        {
+           "background":"/4_1_10_left.jpg",
+           "text":{
+              "content":"After the wolf had satisfied his hunger, he lay down and took a nap. He was snoring very loudly. A hunter heard him as he was passing outside the house and muttered, \"How is the grandmother snoring like that! I'm going to see if she needs anything\".",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/4_1_10_right.jpg",
+           "text":{
+              "content":"Entering he sees the wolf sleeping. \"You here hateful creature! I have something for you!\" And the moment he was about to shoot he thought that maybe the wolf had eaten the grandmother. So the hunter did not shoot, he still had time to save the old woman.",
+              "position":"TopLeft"
+           }
+        }
+     ],
+     "audio":"/4_1_10.mp3"
+  },
+  {
+     "id":16,
+     "pages":[
+        {
+           "background":"/4_1_11_left.jpg",
+           "text":{
+              "content":"He grabbed the scissors and started cutting the wolf's stomach. With the first two snips he saw Little Red Riding Hood. He cut two more times, and he found grandma too.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/4_1_11_right.jpg",
+           "text":{
+              "content":"He cut a little more, and Little Red Riding Hood came out, saying, \"Oh, how I was afraid! How dark it was inside the wolf\", and then the grandmother came out alive, barely breathing.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_11.mp3"
+  },
+  {
+     "id":17,
+     "pages":[
+        {
+           "background":"/4_1_12_left.jpg",
+           "text":{
+              "content":"Little Red Riding Hood quickly gathered stones and filled the wolf's belly.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/4_1_12_right.jpg",
+           "text":{
+              "content":"When the wolf woke up he wanted to escape but the stones were too heavy and the wolf fell dead.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_12.mp3",
+     "question":{
+        "text":"When the wolf tried to get up with his belly full of stones, he failed and fell dead because the stones were too heavy. This was the ------- of the wolf.",
+        "audio":[
+           "/4_1_12_question.mp3",
+           "/4_1_12_opt1.mp3",
+           "/4_1_12_opt2.mp3"
+        ],
+        "options":[
+           "Reward",
+           "Punishment"
+        ]
+     },
+     "values":[
+        "Reward",
+        "Punishment"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Let's try again! The wolf harmed Little Red Riding Hood and her grandmother after tricking them and then eating them.",
+              "audio":"/4_1_12_feedback_opt1.mp3"
+           },
+           {
+              "text":"Fantastic! The wolf was punished for the harm he did to Little Red Riding Hood and her grandmother.",
+              "audio":"/4_1_12_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     }
+  },
+  {
+     "id":18,
+     "pages":[
+        {
+           "background":"/4_1_13_left.jpg",
+           "text":{
+              "content":"Little Red Riding Hood, Grandma and the Huntsman were very happy. The hunter skinned the wolf and went home. The grandmother ate the food, the bread and drank some wine and got stronger.",
+              "position":"TopCenter"
+           }
+        },
+        {
+           "background":"/4_1_13_right.jpg",
+           "text":{
+              "content":"Then Little Red Riding Hood said to her grandmother: \"As long as I live I will not go out of my way again, as my mother has told me, because there are many dangers\".",
+              "position":"TopLeft"
+           }
+        }
+     ],
+     "audio":"/4_1_13.mp3",
+     "end": true,
+     "endStep": 68
+  },
+  {
+     "id":19,
+     "pages":[
+        {
+           "background":"/4_2_left.jpg",
+           "text":{
+              "content":"The wolf tried to trick her and lead her off the path. But Little Red Riding Hood had her wits about her and went straight to her grandmother's house without delay.",
+              "position":"MiddleCenter"
+           }
+        },
+        {
+           "background":"/4_2_right.jpg",
+           "text":{
+              "content":"She told her grandmother that the wolf greeted her, but he had a malice in his eyes and would surely have eaten her if she hadn't been in public.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_2.mp3",
+     "question":{
+        "text":"Going to the forest, little red riding hood met a wolf and because she didn't know him, she decided not to talk to him and continue on her way as her mom had told her. What did Little Red Riding Hood show towards her mom?",
+        "audio":[
+           "/4_2_question.mp3",
+           "/4_2_opt1.mp3",
+           "/4_2_opt2.mp3"
+        ],
+        "options":[
+           "Defiance",
+           "Obedience"
+        ]
+     },
+     "values":[
+        "Defiance",
+        "Obedience"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Let's try again! We defy someone when we don't obey what they tell us.",
+              "audio":"/4_2_feedback_opt1.mp3"
+           },
+           {
+              "text":"Fantastic! Little Red Riding Hood did obey her mother's instructions but she also knew that we should not talk to strangers.",
+              "audio":"/4_2_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     }
+  },
+  {
+     "id":20,
+     "pages":[
+        {
+           "background":"/4_2_1_left.jpg",
+           "text":{
+              "content":"\"Don't be afraid\", her grandmother told her, \"we'll lock the door and he won't be able to get in if he comes here\".",
+              "position":"TopCenter"
+           }
+        },
+        {
+           "background":"/4_2_1_right.jpg",
+           "text":{
+              "content":"In fact, soon there was a knock at the door and it was the wolf: \"Open up grandma, I'm Little Red Riding Hood and I've brought you food\".",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_1.mp3",
+     "question":{
+        "text":"When the wolf knocked on Grandma's door and told her that he was Little Red Riding Hood what was he actually trying to do?",
+        "audio":[
+           "/4_2_1_question.mp3",
+           "/4_2_1_opt1.mp3",
+           "/4_2_1_opt2.mp3"
+        ],
+        "options":[
+           "To trick her",
+           "Help her"
+        ]
+     },
+     "values":[
+        "Defiance",
+        "Help"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Excellent! The wolf actually tried to trick the grandmother by pretending to be Little Red Riding Hood.",
+              "audio":"/4_2_1_feedback_opt1.mp3"
+           },
+           {
+              "text":"Think again! The wolf did not intend to help the grandmother but to trick her into opening up to him and then eat her.",
+              "audio":"/4_2_1_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     }
+  },
+  {
+     "id":21,
+     "pages":[
+        {
+           "background":"/4_1_5_left.jpg",
+           "text":{
+              "content":"Grandma and Little Red Riding Hood neither spoke nor opened the door. The wolf knocked once, twice, three times and finally climbed onto the roof.",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_5_right.jpg",
+           "text":{
+              "content":"He waited for Little Red Riding Hood to come out to grab her and eat her. But the grandmother understood his plan.",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_2.mp3"
+  },
+  {
+     "id":22,
+     "pages":[
+        {
+           "background":"/4_2_3_left.jpg",
+           "text":{
+              "content":"There was a big pot in the house and the grandmother said to Little Red Riding Hood: \"Come let's cook.",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_2_3_right.jpg",
+           "text":{
+              "content":"I have sausages to boil, put the water on the fire\".",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_3.mp3"
+  },
+  {
+     "id":23,
+     "pages":[
+        {
+           "background":"/4_2_4_left.jpg",
+           "text":{
+              "content":"Little Red Riding Hood helped her grandmother in cooking.",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_2_4_right.jpg",
+           "text":{
+              "content":"Soon the smell of sausages reached the wolf's nostrils.",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_4.mp3",
+     "question":{
+        "text":"The grandmother understood that the wolf's plan was to wait on the roof for Little Red Riding Hood to come out of the house to eat her, so she invited Little Red Riding Hood to cook together. Cooking with her granddaughter, what does it show?",
+        "audio":[
+           "/4_2_4_question.mp3",
+           "/4_2_4_opt1.mp3",
+           "/4_2_4_opt2.mp3"
+        ],
+        "options":[
+           "Competition",
+           "Cooperation"
+        ]
+     },
+     "values":[
+        "Competition",
+        "Cooperation"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"To compete means to try to show that I am better or better than someone or someone. The grandmother did not want to compete with Little Red Riding Hood but to cooperate with her.",
+              "audio":"/4_2_4_feedback_opt1.mp3"
+           },
+           {
+              "text":"Correct! Grandma worked with Little Red Riding Hood to make the food.",
+              "audio":"/4_2_4_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     }
+  },
+  {
+     "id":24,
+     "pages":[
+        {
+           "background":"/2_left.jpg",
+           "text":{
+              "content":"He followed his nose and stretched to see what they were preparing inside the house. He couldn't hold on and fell off the roof into the big pot and drowned.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/2_right.jpg",
+           "text":{
+              "content":"Little Red Riding Hood returned home and since then no one has deceived her again.",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/4_2_5.mp3",
+     "question":{
+        "text":"When the smell of the sausages reached the wolf's nostrils he stretched out to see what they were making and then fell into the big pot and drowned. This was the ------- of the wolf.",
+        "audio":[
+           "/4_2_5_question.mp3",
+           "/4_2_5_opt1.mp3",
+           "/4_2_5_opt2.mp3"
+        ],
+        "options":[
+           "Reward",
+           "Punishment"
+        ]
+     },
+     "values":[
+        "Reward",
+        "Punishment"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Let's try again! The wolf wanted to hurt Little Red Riding Hood since he was waiting for her to come out of the house to eat her.",
+              "audio":"/4_2_5_feedback_opt1.mp3"
+           },
+           {
+              "text":"Fantastic! The wolf was punished for the harm he wanted to do to Little Red Riding Hood.",
+              "audio":"/4_2_5_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     },
+     "end": true,
+     "endStep": 68
+  },
+  {
+     "id":25,
+     "pages":[
+        {
+           "background":"/4_1_1_left.jpg",
+           "text":{
+              "content":"\"Somewhere beyond the forest\". Little Red Riding Hood replies vaguely to the wolf, intending to go straight to her grandmother's house without delay.",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_1_1_right.jpg",
+           "text":{
+              "content":"The wolf thought \"how good this little one is! How delicious she will taste.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_2_1.mp3"
+  },
+  {
+     "id":26,
+     "pages":[
+        {
+           "background":"/4_1_2_left.jpg",
+           "text":{
+              "content":"I must act cunningly and catch her\".",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_2_right.jpg",
+           "text":{
+              "content":"So he said goodbye and started following her secretly without her noticing.",
+              "position":"Top Center"
+           }
+        }
+     ],
+     "audio":"/4_1_2_2.mp3"
+  },
+  {
+     "id":27,
+     "pages":[
+        {
+           "background":"/4_1_7_left.jpg",
+           "text":{
+              "content":"Little Red Riding Hood arrived at her grandmother's house and knocked on the door \"Who is it?\" says grandma,",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_7_right.jpg",
+           "text":{
+              "content":"\"Little Red Riding Hood\", she replies, \"I'm bringing food and wine, open the door\". \"Lift the bolt\", cried the grandmother, \"I am too weak and cannot open it\".",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_2_3.mp3"
+  },
+  {
+     "id":28,
+     "pages":[
+        {
+           "background":"/4_2_left.jpg",
+           "text":{
+              "content":"Little Red Riding Hood lifted the bolt, opened the door, and entered.",
+              "position":"MiddleCenter"
+           }
+        },
+        {
+           "background":"/4_2_right.jpg",
+           "text":{
+              "content":"She told her grandmother that the wolf said good morning to her, asked her where she was going and where she lived, but since we don't give out personal information to strangers she told her that she didn't tell him where she lived, she only vaguely replied that it was somewhere beyond the woods.",
+              "position":"TopCenter"
+           }
+        }
+     ],
+     "audio":"/4_1_2_4.mp3"
+  },
+  {
+     "id":29,
+     "pages":[
+        {
+           "background":"/4_2_1_left.jpg",
+           "text":{
+              "content":"\"Don't be afraid\", her grandmother told her, \"we'll lock the door and he won't be able to get in if he comes here\".",
+              "position":"TopCenter"
+           }
+        },
+        {
+           "background":"/4_2_1_right.jpg",
+           "text":{
+              "content":"In fact, soon there was a knock at the door and it was the wolf: \"Open up grandma, I'm Little Red Riding Hood and I've brought you food\".",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_1.mp3",
+     "question":{
+        "text":"When the wolf knocked on Grandma's door and told her that he was Little Red Riding Hood what was he actually trying to do?",
+        "audio":[
+           "/4_2_1_question.mp3",
+           "/4_2_1_opt1.mp3",
+           "/4_2_1_opt2.mp3"
+        ],
+        "options":[
+           "To trick her",
+           "Help her"
+        ]
+     },
+     "values":[
+        "Defiance",
+        "Help"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Excellent! The wolf actually tried to trick the grandmother by pretending to be Little Red Riding Hood.",
+              "audio":"/4_2_1_feedback_opt1.mp3"
+           },
+           {
+              "text":"Think again! The wolf did not intend to help the grandmother but to trick her into opening up to him and then eat her.",
+              "audio":"/4_2_1_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     }
+  },
+  {
+     "id":30,
+     "pages":[
+        {
+           "background":"/4_1_5_left.jpg",
+           "text":{
+              "content":"Grandma and Little Red Riding Hood neither spoke nor opened the door. The wolf knocked once, twice, three times and finally climbed onto the roof.",
+              "position":"MiddleRight"
+           }
+        },
+        {
+           "background":"/4_1_5_right.jpg",
+           "text":{
+              "content":"He waited for Little Red Riding Hood to come out to grab her and eat her. But the grandmother understood his plan.",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_2.mp3"
+  },
+  {
+     "id":31,
+     "pages":[
+        {
+           "background":"/4_2_3_left.jpg",
+           "text":{
+              "content":"There was a big pot in the house and the grandmother said to Little Red Riding Hood: \"Come let's cook.",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_2_3_right.jpg",
+           "text":{
+              "content":"I have country sausages to boil, put the water on the fire\".",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_3.mp3"
+  },
+  {
+     "id":32,
+     "pages":[
+        {
+           "background":"/4_2_4_left.jpg",
+           "text":{
+              "content":"Little Red Riding Hood helped her grandmother in cooking.",
+              "position":"TopRight"
+           }
+        },
+        {
+           "background":"/4_2_4_right.jpg",
+           "text":{
+              "content":"Soon the smell of sausages reached the wolf's nostrils.",
+              "position":"MiddleCenter"
+           }
+        }
+     ],
+     "audio":"/4_2_4.mp3",
+     "question":{
+        "text":"The grandmother understood that the wolf's plan was to wait on the roof for Little Red Riding Hood to come out of the house to eat her, so she invited Little Red Riding Hood to cook together. Cooking with her granddaughter, what does it show?",
+        "audio":[
+           "/4_2_4_question.mp3",
+           "/4_2_4_opt1.mp3",
+           "/4_2_4_opt2.mp3"
+        ],
+        "options":[
+           "Competition",
+           "Cooperation"
+        ]
+     },
+     "values":[
+        "Competition",
+        "Cooperation"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"To compete means to try to show that I am better or better than someone or someone. The grandmother did not want to compete with Little Red Riding Hood but to cooperate with her.",
+              "audio":"/4_2_4_feedback_opt1.mp3"
+           },
+           {
+              "text":"Correct! Grandma worked with Little Red Riding Hood to make the food.",
+              "audio":"/4_2_4_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     }
+  },
+  {
+     "id":33,
+     "pages":[
+        {
+           "background":"/2_left.jpg",
+           "text":{
+              "content":"He followed his nose and stretched to see what they were preparing inside the house. He couldn't hold on though and fell off the roof into the big pot and drowned.",
+              "position":"TopLeft"
+           }
+        },
+        {
+           "background":"/2_right.jpg",
+           "text":{
+              "content":"Little Red Riding Hood returned home and since then no one has deceived her again.",
+              "position":"TopRight"
+           }
+        }
+     ],
+     "audio":"/4_2_5.mp3",
+     "question":{
+        "text":"When the smell of the sausages reached the wolf's nostrils he stretched out to see what they were making and then fell into the pot and drowned. This was the ------- of the wolf.",
+        "audio":[
+           "/4_2_5_question.mp3",
+           "/4_2_5_opt1.mp3",
+           "/4_2_5_opt2.mp3"
+        ],
+        "options":[
+           "Reward",
+           "Punishment"
+        ]
+     },
+     "values":[
+        "Reward",
+        "Punishment"
+     ],
+     "feedback":{
+        "list":[
+           {
+              "text":"Let's try again! The wolf wanted to hurt Little Red Riding Hood since he was waiting for her to come out of the house to eat her.",
+              "audio":"/4_2_5_feedback_opt1.mp3"
+           },
+           {
+              "text":"Fantastic! The wolf was punished for the harm he wanted to do to Little Red Riding Hood.",
+              "audio":"/4_2_5_feedback_opt2.mp3"
+           }
+        ],
+        "option":"Continue"
+     },
+     "end": true,
+     "endStep": 68
+  },
+  {
+     "id":34,
+     "pages":[
+        {
+           "background":"/end_left.jpeg",
+           "text":{
+            "content":"Illustration - Design: Aspasia Xydea \n Narration: Aspasia Xydea \n Original texts: https://www.paidika-paramythia.gr/ \n Translation - Revision of texts: Elena Aristodemou \n Original illustration: Collaboration with the AR4Youth project (https://www.ar4youth. eu/) financed by the Erasmus+ programme of the European Union. \n Programming: Davide Lamorte, Martin Ruskov, Stefano Montanelli \n VAST project website: https://www.vast-project.eu/",
+            "position":"MiddleCenter",
+            "class":"CreditsLeft"
+            }
+        },
+        {
+           "background":"/end_right.jpeg",
+           "text":{
+            "content":"This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 101004949.",
+            "position":"BottomCenter",
+            "class":"Credits"
+            }
+        }
+     ],
+     "lastPage": true,
+     "evaluation": {
+      "show": true,
+      "label": "How much did you like the story?"
+     }
+  }
+]

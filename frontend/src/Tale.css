@@ -1,0 +1,127 @@
+.TaleContainer {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.OrientationWarning {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.OrientationWarning img {
+  width: 80%;
+}
+
+.ChoiceOverlay {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.BlockFlipLeftOverlay {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.ReactModal__Overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 25;
+}
+
+.Modal {
+  background-color: #ffd86b;
+  height: 400px;
+  width: 700px;
+  z-index: 25;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.Modal button {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: #2f324d;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.Modal button:first-child {
+  margin-right: 30px;
+}
+
+.ButtonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Debrief {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.Debrief strong {
+  font-weight: bold;
+  color: red;
+}
+
+.Evaluation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (orientation: portrait) {
+  .TaleContainer {
+    display: none;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .OrientationWarning {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Modal {
+    height: 90%;
+    width: 90%;
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Modal {
+    font-size: 1.2rem;
+  }
+}

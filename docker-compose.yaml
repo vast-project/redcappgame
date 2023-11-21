@@ -1,0 +1,47 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15.1
+    environment:
+      - POSTGRES_DB=fairytale_cards
+      - POSTGRES_USER=redcapp
+      - POSTGRES_PASSWORD=ppacder
+      # - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 5492:5432
+    volumes:
+      - ./db/data:/var/lib/postgresql/data/
+      - ./db/init:/docker-entrypoint-initdb.d/:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -d fairytale_cards -U redcapp"]
+    restart: always
+
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8093:8000
+    volumes:
+      - ./backend:/app:ro
+      # - ./static:/static:ro
+      #- ./db:/data  # used by sqlite
+      #- ./arguments-test.tsv:/data/arguments-test.tsv:ro
+    # command: sh -c "tail -f /dev/null"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -nv -t1 --spider http://localhost:8000/docs || exit 1"]
+    restart: always
+
+  nginx:
+    image: nginx:1.21.6-alpine
+    ports:
+      - 8092:80
+    volumes: 
+      - ./frontend/dist:/usr/share/nginx/html:ro
+      - ./static:/usr/share/nginx/static:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      # - ./logs:/val/log/nginx
+    healthcheck:
+      test: ["CMD-SHELL", "wget -nv -t1 --spider http://localhost || exit 1"]
+    restart: always
