@@ -4,7 +4,6 @@ from typing import Dict, List, Tuple
 
 import os
 import requests
-import shutil
 import regex
 
 from pydub import AudioSegment
@@ -20,6 +19,8 @@ voices = {
     "Giovanni": "zcAOhNBS3c14rBihAFp1",  # english-italian
     "Josh": "TxGEqnHWrfWFTfGW9XjX",  # "Josh", US
     "Matthew": "Yko7PKHZNXotIFUBG7I9",  # UK. audiobook
+    "Serena": "pMsXgVXv3BLzUgSXRplE",
+    "Charlotte": "XB0fDUnXU5powFXDhCwa" # bg
 }
 
 # https://github.com/anars/blank-audio
@@ -32,6 +33,7 @@ pauses = {
 
 # dir = "en"
 dir = "it"
+dir = "bg"
 
 # model = "eleven_multilingual_v1"
 model = "eleven_multilingual_v2"

@@ -57,15 +57,26 @@ def values2msg(values) -> str:
         return ""
     result = ""
     if len(values) > 1:
-        result = ", ".join([f"<strong>{v['response_value']}</strong>" for v in values[:-1]])
+        result = ", ".join(
+            [f"<strong>{v['response_value']}</strong>" for v in values[:-1]]
+        )
         result += " and "
     return result + f"<strong>{values[-1]['response_value']}</strong>"
+
 
 def generate_debriefing(session_id: str):
     result = run_query("L", {"session_id": session_id})
     if not result:
         return ""
     lang = result.pop()["language"]
+    if (
+        lang not in player_values
+        or lang not in empties
+        or lang not in heads
+        or lang not in counter
+        or lang not in total_values
+    ):
+        lang = "en"
     own_values = values2msg(run_query("A", {"session_id": session_id}))
     result = run_query("B", {"language": lang})
     if not result:
@@ -75,7 +86,9 @@ def generate_debriefing(session_id: str):
 
     body = [player_values[lang].format(own_values)] if own_values else [empties[lang]]
     assert all_players
-    result = [heads[lang]] + body + [counter[lang].format(f"<strong>{all_players}</strong>")]
+    result = (
+        [heads[lang]] + body + [counter[lang].format(f"<strong>{all_players}</strong>")]
+    )
     if all_values:
         result += [total_values[lang].format(all_values)]
 

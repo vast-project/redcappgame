@@ -11,6 +11,7 @@ const countryOptions = [
   { value: "el", label: "🇬🇷 Ελληνικά" },
   { value: "en", label: "🇬🇧 English" },
   { value: "it", label: "🇮🇹 Italiano" },
+  { value: "bg", label: "🇧🇬 Български" },
 ];
 
 const ageOptions = [
@@ -123,6 +124,39 @@ const LT = {
       </span>
     ),
     startButtonLabel: "Inizia",
+  },
+  bg: {
+    welcomeLabel:
+      "Моля, попълнете формуляра вдясно, за да започнете историята",
+    languageLabel: "Език:",
+    ageLabel: "Възраст:",
+    genderLabel: "Пол:",
+    groupLabel: "Група сме",
+    genderOptions: [
+      { value: "Male", label: "Мъжки" },
+      { value: "Female", label: "Женски" },
+      { value: "Prefer not to say", label: "Предпочитам да премълча" },
+    ],
+    educationLabel: "Образование:",
+    educationOptions: [
+      { value: "Preschool", label: "Предучилищно" },
+      { value: "Primary school", label: "Начално образование" },
+      { value: "Mid school", label: "Основно образование" },
+      { value: "High school", label: "Средно образование" },
+      { value: "Bachelor degree", label: "Бакалавърска степен" },
+      { value: "Master degree", label: "Магистърска степен" },
+      { value: "Ph.D.", label: "докторантура" },
+    ],
+    disclaimer: (
+      <span>
+        отбелязвайки тук аз приемам{" "}
+        <a href={`/disclaimer/bg.html`} target="_blank">
+          правилата за употреба
+        </a>{" "}
+        на тази услуга
+      </span>
+    ),
+    startButtonLabel: "Начало",
   },
 };
 

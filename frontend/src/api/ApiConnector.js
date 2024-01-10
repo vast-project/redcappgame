@@ -1,7 +1,6 @@
-import data from "./redcapTaleItalian.json";
-
 export function ApiConnector() {
-  const API_SERVER = "https://redcapp.islab.di.unimi.it";
+  // const API_SERVER = "https://redcapp.islab.di.unimi.it";
+  const API_SERVER = "";
 
   async function getTale(storyUrl) {
     const data = await fetch(`${API_SERVER}/story/${storyUrl}`);

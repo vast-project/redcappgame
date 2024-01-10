@@ -82,7 +82,7 @@ Le risposte raccolte fino ad ora mostrano una prevalenza del seguente valore: Si
 
 1. Make sure docker-compose is installed
 
-2. Build front-end with `npm run build`
+2. Build front-end with `npm install && npm run build`
 
 3. Run containers with `docker-compose up --build`
 

@@ -155,7 +155,7 @@
      },
      "nextSteps":[
         10,
-        40
+        38
      ]
   },
   {
@@ -254,7 +254,7 @@
               "audio":"/4_1_1_feedback_opt1.mp3"
            },
            {
-              "text":"Hmm, puoi fare di meglio. Cappuccetto Rosso essendo innocente non pensava che non fosse bene fornire le nostre informazioni personali a sconosciuti, poich\u00e9 non possiamo sapere quali siano le loro intenzioni.",
+              "text":"Hmm, puoi fare di meglio. Cappuccetto Rosso essendo innocente non pensava che non fosse bene fornire informazioni personali a sconosciuti, poich\u00e9 non possiamo sapere quali siano le loro intenzioni.",
               "audio":"/4_1_1_feedback_opt2.mp3"
            }
         ],
@@ -392,7 +392,7 @@
         {
            "background":"/4_1_5_right.jpg",
            "text":{
-              "content":"\"Chi \u00e8?\" \"Cappuccetto Rosso\", risponde il lupo. \"Porto cibo e vino, apri la porta\".",
+              "content":"\"Chi \u00e8?\" \"Cappuccetto Rosso\", risponse il lupo. \"Porto cibo e vino, apri la porta\".",
               "position":"MiddleCenter"
            }
         }
@@ -501,7 +501,7 @@
         {
            "background":"/4_1_9_right.jpg",
            "text":{
-              "content":"\"Per abbracciarti meglio, tesoro\". \"Nonna, che bocca spaventosamente grande hai!\" \"Per mangiarti meglio!\" Detto questo, il lupo balza in avanti e mangia Cappuccetto Rosso.",
+              "content":"\"Per abbracciarti meglio, tesoro\". \"Nonna, che bocca spaventosamente grande hai!\" \"Per mangiarti meglio!\" Detto questo, il lupo balz\u00f2 in avanti e mangi\u00f2 Cappuccetto Rosso.",
               "position":"TopCenter"
            }
         }
@@ -812,7 +812,7 @@
         {
            "background":"/2_left.jpg",
            "text":{
-              "content":"Segu\u00ec il suo naso e si allung\u00f2 per vedere cosa stavano preparando in casa. Ma non riusc\u00ec a resistere, cadde dal tetto nel pentolone traboccante e anneg\u00f2.",
+              "content":"Segu\u00ec il suo naso e si allung\u00f2 per vedere cosa stessero preparando in casa. Ma non riusc\u00ec a resistere, cadde dal tetto nel pentolone traboccante e anneg\u00f2.",
               "position":"TopLeft"
            }
         },
@@ -826,7 +826,7 @@
      ],
      "audio":"/4_2_5.mp3",
      "question":{
-        "text":"Quando l'odore delle salsicce arriv\u00f2 alle narici del lupo, questi si allung\u00f2 per vedere cosa stavano preparando, poi cadde nel pentolone e anneg\u00f2. Questa era la ------- del lupo.",
+        "text":"Quando l'odore delle salsicce arriv\u00f2 alle narici del lupo, questi si allung\u00f2 per vedere cosa stessero preparando, poi cadde nel pentolone e anneg\u00f2. Questa era la ------- del lupo.",
         "audio":[
            "/4_2_5_question.mp3",
            "/4_2_5_opt1.mp3",
@@ -863,7 +863,7 @@
         {
            "background":"/4_1_1_left.jpg",
            "text":{
-              "content":"\"Da qualche parte oltre il bosco\", risponde vagamente Cappuccetto Rosso al lupo, con l'intenzione di andare direttamente a casa della nonna.",
+              "content":"\"Da qualche parte oltre il bosco\", rispose vagamente Cappuccetto Rosso al lupo, con l'intenzione di andare direttamente a casa della nonna.",
               "position":"TopRight"
            }
         },
@@ -1081,7 +1081,7 @@
         {
            "background":"/2_left.jpg",
            "text":{
-              "content":"Segu\u00ec il suo naso e si allung\u00f2 per vedere cosa stavano preparando in casa. Ma non riusc\u00ec a resistere, cadde dal tetto nel pentolone e anneg\u00f2.",
+              "content":"Segu\u00ec il suo naso e si allung\u00f2 per vedere cosa stessero preparando in casa. Ma non riusc\u00ec a resistere, cadde dal tetto nel pentolone e anneg\u00f2.",
               "position":"TopLeft"
            }
         },
@@ -1095,7 +1095,7 @@
      ],
      "audio":"/4_2_5.mp3",
      "question":{
-        "text":"Quando l'odore delle salsicce arriv\u00f2 alle narici del lupo, questi si allung\u00f2 per vedere cosa stavano preparando, poi cadde nel pentolone e anneg\u00f2. Questa era la ------- del lupo.",
+        "text":"Quando l'odore delle salsicce arriv\u00f2 alle narici del lupo, questi si allung\u00f2 per vedere cosa stessero preparando, poi cadde nel pentolone e anneg\u00f2. Questa era la ------- del lupo.",
         "audio":[
            "/4_2_5_question.mp3",
            "/4_2_5_opt1.mp3",

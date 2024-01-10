@@ -1,6 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""model from: https://app.asana.com/0/1204079067058910/1204732484189369"""
+"""model from: https://app.asana.com/0/1204079067058910/1204732484189369
+
+Story files are loaded via a STORED/GENERATED column.
+SQLAlchemy does not update these automatically.
+As a consequence, to apply changes to story script names,
+use e.g. (no data loss occurs):
+
+    ALTER TABLE public.user_context DROP story_file;
+
+    ALTER TABLE public.user_context ADD story_file varchar NULL GENERATED ALWAYS AS (
+    CASE
+        WHEN language::text = 'en'::text THEN 'redcapTaleEnglish.json'::text
+        WHEN language::text = 'el'::text THEN 'redcapTaleGreek.json'::text
+        WHEN language::text = 'gr'::text THEN 'redcapTaleGreek.json'::text
+        WHEN language::text = 'it'::text THEN 'redcapTaleItalian.json'::text
+        WHEN language::text = 'bg'::text THEN 'redcapTaleBulgarian.json'::text
+        ELSE 'redcapTaleEnglish.json'::text
+    END) STORED;
+"""
 
 from sqlalchemy import Column, Computed
 from sqlalchemy import Integer, String, DateTime
@@ -15,6 +33,7 @@ lang2script = """case
     when language = 'el' then 'redcapTaleGreek.json'
     when language = 'gr' then 'redcapTaleGreek.json'
     when language = 'it' then 'redcapTaleItalian.json'
+    when language = 'bg' then 'redcapTaleBulgarian.json'
     else 'redcapTaleEnglish.json'
 end"""
 
@@ -79,6 +98,7 @@ class UserAnswer(Base):
     question_text = Column(String)
     response_text = Column(String)
     response_id = Column(String)
+    # in original language, because shown in final screen
     response_value = Column(String)
     #  "question" and "choice"
     response_type = Column(String)
@@ -116,7 +136,7 @@ def init():
 def preview():
     from eralchemy2 import render_er
 
-    render_er(Base, "../docs/redcap-ftm.png")
+    render_er(Base, "../redcap-ftm.png")
 
 
 if __name__ == "__main__":

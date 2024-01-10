@@ -132,8 +132,8 @@
            "/4_opt2.mp3"
         ],
         "options":[
-           "To speak",
-           "Not to speak"
+           "To talk",
+           "Not to talk"
         ]
      },
      "values":[
@@ -155,7 +155,7 @@
      },
      "nextSteps":[
         10,
-        40
+        38
      ]
   },
   {
@@ -172,7 +172,7 @@
            "background":"/4_1_right.jpg",
            "text":{
               "content":"\"What do you carry on your apron?\" \"A little food and wine. Yesterday my mother baked in the oven and made something good for my sick grandmother. If she eats it she will be well\". \"And where does your grandmother live, Little Red Riding Hood?\"",
-              "position":"MiddleCenter"
+              "position":"TopCenter"
            }
         }
      ],

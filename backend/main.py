@@ -115,7 +115,7 @@ async def debriefing(session_id: str):
     result = generate_debriefing(session_id)
     if not result:
         raise HTTPException(status_code=404, detail=f"Session {session_id} not found")
-    return result 
+    return result
 
 
 if __name__ == "__main__":

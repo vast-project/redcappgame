@@ -2,12 +2,15 @@ import json
 
 from txt2speech import build
 
-fin = "../static/story/redcapTaleItalian.json"
+# fin = "../static/story/redcapTaleItalian.json"
 # fin = "../static/story/redcapTaleEnglish.json"
+fin = "../static/story/redcapTaleBulgarian.json"
 
 # voice = "Giovanni"
 # voice = "Dorothy"  # en
-voice = "Bella"  # it
+# voice = "Bella"  # it
+voice = "Serena"
+voice = "Charlotte"
 
 with open(fin, "r") as inj:
     source = json.load(inj)
