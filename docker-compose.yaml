@@ -34,7 +34,7 @@ services:
     restart: always
 
   nginx:
-    image: nginx:1.21.6-alpine
+    image: nginx:1.25-alpine-slim
     ports:
       - 8092:80
     volumes: 
