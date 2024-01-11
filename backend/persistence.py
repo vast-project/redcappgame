@@ -55,13 +55,9 @@ def run_query(query_name: str, data: Dict[str, str]) -> object:
 def values2msg(values) -> str:
     if not values:
         return ""
-    result = ""
-    if len(values) > 1:
-        result = ", ".join(
-            [f"<strong>{v['response_value']}</strong>" for v in values[:-1]]
-        )
-        result += " and "
-    return result + f"<strong>{values[-1]['response_value']}</strong>"
+    return ", ".join(
+        [f"<strong>{v['response_value'].lower()}</strong>" for v in values]
+    )
 
 
 def generate_debriefing(session_id: str):

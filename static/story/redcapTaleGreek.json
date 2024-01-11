@@ -67,8 +67,8 @@
       ]
     },
     "values": [
-      "Empathy",
-      "Sincerity"
+      "Ενσυναίσθηση",
+      "Ειλικρίνεια"
     ],
     "feedback": {
       "list": [
@@ -137,8 +137,8 @@
       ]
     },
     "values": [
-      "Trust",
-      "Prudence"
+      "Εμπιστοσύνη",
+      "Σύνεση"
     ],
     "feedback": {
       "list": [
@@ -191,8 +191,8 @@
       ]
     },
     "values": [
-      "Trust",
-      "Prudence"
+      "Εμπιστοσύνη",
+      "Σύνεση"
     ],
     "feedback": {
       "list": [
@@ -244,8 +244,8 @@
       ]
     },
     "values": [
-      "Trust",
-      "Kindness"
+      "Εμπιστοσύνη",
+      "Καλοσύνη"
     ],
     "feedback": {
       "list": [
@@ -293,8 +293,8 @@
       ]
     },
     "values": [
-      "Deceit",
-      "Help"
+      "Εξαπάτηση",
+      "Βοήθεια"
     ],
     "feedback": {
       "list": [
@@ -328,7 +328,7 @@
         }
       }
     ],
-    "audio": "4_1_3.mp3"
+    "audio": "/4_1_3.mp3"
   },
   {
     "id": 9,
@@ -362,8 +362,8 @@
       ]
     },
     "values": [
-      "Innocence",
-      "Kindness"
+      "Αθωότητα",
+      "Καλοσύνη"
     ],
     "feedback": {
       "list": [
@@ -431,8 +431,8 @@
       ]
     },
     "values": [
-      "Empathy",
-      "Trust"
+      "Ενσυναίσθηση",
+      "Εμπιστοσύνη"
     ],
     "feedback": {
       "list": [
@@ -575,13 +575,13 @@
         "/4_1_12_opt2.mp3"
       ],
       "options": [
-        "επιβράβευση",
-        "τιμωρία"
+        "Επιβράβευση",
+        "Τιμωρία"
       ]
     },
     "values": [
-      "Reward",
-      "Punishment"
+        "Επιβράβευση",
+        "Τιμωρία"
     ],
     "feedback": {
       "list": [
@@ -651,8 +651,8 @@
       ]
     },
     "values": [
-      "Defiance",
-      "Obedience"
+      "Αψήφηση",
+      "Υπακοή"
     ],
     "feedback": {
       "list": [
@@ -700,8 +700,8 @@
       ]
     },
     "values": [
-      "Defiance",
-      "Help"
+      "Αψήφηση",
+      "Βοήθεια"
     ],
     "feedback": {
       "list": [
@@ -789,8 +789,8 @@
       ]
     },
     "values": [
-      "Competition",
-      "Cooperation"
+      "Ανταγωνισμό",
+      "Συνεργασία"
     ],
     "feedback": {
       "list": [
@@ -833,13 +833,13 @@
         "/4_2_5_opt2.mp3"
       ],
       "options": [
-        "επιβράβευση",
-        "τιμωρία"
+        "Επιβράβευση",
+        "Τιμωρία"
       ]
     },
     "values": [
-      "Reward",
-      "Punishment"
+      "Επιβράβευση",
+      "Τιμωρία"
     ],
     "feedback": {
       "list": [
@@ -969,8 +969,8 @@
       ]
     },
     "values": [
-      "Defiance",
-      "Help"
+      "Αψήφηση",
+      "Βοήθεια"
     ],
     "feedback": {
       "list": [
@@ -1058,8 +1058,8 @@
       ]
     },
     "values": [
-      "Competition",
-      "Cooperation"
+      "Ανταγωνισμός",
+      "Συνεργασία"
     ],
     "feedback": {
       "list": [
@@ -1102,13 +1102,13 @@
         "/4_2_5_opt2.mp3"
       ],
       "options": [
-        "επιβράβευση",
-        "τιμωρία"
+        "Επιβράβευση",
+        "Τιμωρία"
       ]
     },
     "values": [
-      "Reward",
-      "Punishment"
+      "Επιβράβευση",
+      "Τιμωρία"
     ],
     "feedback": {
       "list": [
