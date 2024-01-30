@@ -52,7 +52,7 @@
   font-size: 1.4rem;
   max-width: 400px;
   height: fit-content;
-  font-family: "Besley", serif;
+  font-family: "Besley", "Roboto Serif", serif;
   line-height: 1.4;
 }
 
@@ -60,7 +60,7 @@
   padding: 0;
   margin: 0;
   font-size: 4rem;
-  font-family: "Indie Flower", cursive;
+  font-family: "Indie Flower", "Shantell Sans", cursive;
   white-space: pre-line;
   background: none;
   max-width: 100%;
@@ -73,7 +73,7 @@
   padding: 10px;
   line-height: 1.5;
   font-size: 0.8rem;
-  font-family: "Besley", serif;
+  font-family: "Besley", "Roboto Serif", serif;
   background: none;
   max-width: 80%;
   white-space: pre-line;
@@ -84,7 +84,7 @@
   padding: 30px;
   line-height: 1.5;
   font-size: 1rem;
-  font-family: "Besley", serif;
+  font-family: "Besley", "Roboto Serif", serif;
   background: none;
   max-width: 80%;
   white-space: pre-line;
