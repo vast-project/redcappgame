@@ -15,10 +15,10 @@ const countryOptions = [
 ];
 
 const ageOptions = [
-  { value: "5-6", label: "5-6" },
+  { value: "4-5", label: "4-5" },
   { value: "6-10", label: "6-10" },
-  { value: "11-15", label: "11-15" },
-  { value: "15-20", label: "15-20" },
+  { value: "11-13", label: "11-13" },
+  { value: "14-20", label: "14-20" },
   { value: "21-30", label: "21-30" },
   { value: ">30", label: ">30" },
   { value: "0-100+", label: "0-100+" },
@@ -126,8 +126,7 @@ const LT = {
     startButtonLabel: "Inizia",
   },
   bg: {
-    welcomeLabel:
-      "Моля, попълнете формуляра вдясно, за да започнете историята",
+    welcomeLabel: "Моля, попълнете формуляра вдясно, за да започнете историята",
     languageLabel: "Език:",
     ageLabel: "Възраст:",
     genderLabel: "Пол:",
