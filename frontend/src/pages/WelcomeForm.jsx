@@ -189,7 +189,7 @@ function WelcomeForm() {
       gender,
       education,
       isGroup: isGroupChecked,
-      u_gid: query.get("u_gid"),
+      u_gid: query.get("vgroupid") ? query.get("vgroupid") : query.get("u_gid"),
     });
     if (data) {
       setSessionData({
