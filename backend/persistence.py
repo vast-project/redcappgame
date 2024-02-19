@@ -64,7 +64,10 @@ def generate_debriefing(session_id: str):
     result = run_query("L", {"session_id": session_id})
     if not result:
         return ""
-    lang = result.pop()["language"]
+    nxt = result.pop()
+    has_group = "user_group_id" in nxt and nxt["user_group_id"]
+    group = nxt["user_group_id"] if has_group else ""
+    lang = nxt["language"]
     if (
         lang not in player_values
         or lang not in empties
@@ -74,11 +77,11 @@ def generate_debriefing(session_id: str):
     ):
         lang = "en"
     own_values = values2msg(run_query("A", {"session_id": session_id}))
-    result = run_query("B", {"language": lang})
+    result = run_query("B", {"user_group_id": group})
     if not result:
         return ""
     all_players = result.pop()["count"]
-    all_values = values2msg(run_query("C", {"language": lang}))
+    all_values = values2msg(run_query("C", {"user_group_id": group, "language": lang}))
 
     body = [player_values[lang].format(own_values)] if own_values else [empties[lang]]
     assert all_players

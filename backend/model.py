@@ -125,11 +125,32 @@ class UserEvaluation(Base):
         return str({c.name: getattr(self, c.name) for c in self.__table__.columns})
 
 
+class ValueTranslations(Base):
+    """the model that stores the result to of the 5-star performance rating"""
+
+    __tablename__ = "value_translations"
+
+    e_id = Column(Integer, primary_key=True)
+    universal = Column(String, nullable=False, comment="The value in English")
+    local = Column(
+        String, nullable=False, comment="The value in the language of this row"
+    )
+    language = Column(String, nullable=False, comment="ISO language code")
+
+
 def init():
     # print("Creating database at: %s" % DATABASE_URL)
     Base.metadata.create_all(engine)
 
     s = Session()
+    import csv
+
+    with open("value_translations.csv") as fin:
+        for row in csv.DictReader(fin):
+            s.add_all(
+                ValueTranslations(universal=row["en"], local=v, language=k)
+                for k, v in row.items()
+            )
     s.commit()
 
 
@@ -142,6 +163,6 @@ def preview():
 if __name__ == "__main__":
     init()
     # try:
-    preview()
+    # preview()
     # except:
     #    pass
