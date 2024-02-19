@@ -74,6 +74,18 @@
   margin-left: 20px;
 }
 
+.DisclaimerContainer {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+}
+
+.DisclaimerContainer img {
+  width: 50px;
+  margin-right: 10px;
+}
+
 @media only screen and (max-width: 1200px) {
   .WelcomeContainer {
     height: auto;

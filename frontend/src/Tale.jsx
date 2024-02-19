@@ -107,9 +107,10 @@ function Tale() {
     }
 
     let height = parseFloat((innerWidth / aspectRatio).toFixed(2));
+    let width = parseFloat((innerHeight * aspectRatio).toFixed(2));
     if (height > innerHeight) height = innerHeight;
     setBookHeight(height);
-    setBookWidth(innerWidth / 2);
+    setBookWidth(width / 2);
   }
 
   useEffect(() => {
