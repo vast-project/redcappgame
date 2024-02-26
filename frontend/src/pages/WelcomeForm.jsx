@@ -25,137 +25,273 @@ const ageOptions = [
 ];
 
 const LT = {
-  en: {
-    welcomeLabel:
-      "Please fill the form on the right to start reading the story",
-    languageLabel: "Language:",
-    ageLabel: "Age:",
-    genderLabel: "Gender:",
-    groupLabel: "I'm a group",
-    genderOptions: [
-      { value: "Male", label: "Male" },
-      { value: "Female", label: "Female" },
-      { value: "Prefer not to say", label: "Prefer not to say" },
-    ],
-    educationLabel: "Education:",
-    educationOptions: [
-      { value: "Preschool", label: "Preschool" },
-      { value: "Primary school", label: "Primary school" },
-      { value: "Mid school", label: "Mid school" },
-      { value: "High school", label: "High school" },
-      { value: "Bachelor degree", label: "Bachelor degree" },
-      { value: "Master degree", label: "Master degree" },
-      { value: "Ph.D.", label: "Ph.D." },
-    ],
-    disclaimer: (
-      <span>
-        by checking the box I accept the{" "}
-        <a href={`/disclaimer/en.html`} target="_blank">
-          terms and conditions of use
-        </a>{" "}
-        of the service
-      </span>
-    ),
-    startButtonLabel: "Start",
+  adult: {
+    en: {
+      welcomeLabel:
+        "Please fill the form on the right to start reading the story",
+      languageLabel: "Language:",
+      ageLabel: "Age:",
+      genderLabel: "Gender:",
+      groupLabel: "I'm a group",
+      genderOptions: [
+        { value: "Male", label: "Male" },
+        { value: "Female", label: "Female" },
+        { value: "Prefer not to say", label: "Prefer not to say" },
+      ],
+      educationLabel: "Education:",
+      educationOptions: [
+        { value: "Preschool", label: "Preschool" },
+        { value: "Primary school", label: "Primary school" },
+        { value: "Mid school", label: "Mid school" },
+        { value: "High school", label: "High school" },
+        { value: "Bachelor degree", label: "Bachelor degree" },
+        { value: "Master degree", label: "Master degree" },
+        { value: "Ph.D.", label: "Ph.D." },
+      ],
+      disclaimer: (
+        <span>
+          by checking the box I accept the{" "}
+          <a href={`/disclaimer/adult_en.pdf`} target="_blank">
+            terms and conditions of use
+          </a>{" "}
+          of the service
+        </span>
+      ),
+      startButtonLabel: "Start",
+    },
+    el: {
+      welcomeLabel:
+        "Συμπληρώστε τη φόρμα στα δεξιά για να ξεκινήσετε την ανάγνωση της ιστορίας",
+      languageLabel: "Γλώσσα:",
+      ageLabel: "Ηλικία:",
+      genderLabel: "Φύλο:",
+      groupLabel: "Είμαι μια ομάδα",
+      genderOptions: [
+        { value: "Male", label: "Άντρας" },
+        { value: "Boy", label: "Αγόρι" },
+        { value: "Female", label: "Γυναίκα" },
+        { value: "Girl", label: "Κορίτσι" },
+        { value: "Prefer not to say", label: "Προτιμώ να μην πω" },
+      ],
+      educationLabel: "Εκπαίδευση:",
+      educationOptions: [
+        { value: "Preschool", label: "Προδημοτική" },
+        { value: "Primary school", label: "Δημοτικό" },
+        { value: "Mid school", label: "Γυμνάσιο" },
+        { value: "High school", label: "Λύκειο" },
+        { value: "Bachelor degree", label: "Πτυχίο" },
+        { value: "Master degree", label: "Μεταπτυχιακό" },
+        { value: "Ph.D.", label: "Διδακτορικό" },
+      ],
+      disclaimer: (
+        <span>
+          by checking the box I accept the{" "}
+          <a href={`/disclaimer/adult_en.pdf`} target="_blank">
+            terms and conditions of use
+          </a>{" "}
+          of the service
+        </span>
+      ),
+      startButtonLabel: "Αρχή",
+    },
+    it: {
+      welcomeLabel:
+        "Compila il modulo a destra per iniziare a leggere la storia",
+      languageLabel: "Lingua:",
+      ageLabel: "Età:",
+      genderLabel: "Genere:",
+      groupLabel: "Sono un gruppo",
+      genderOptions: [
+        { value: "Male", label: "Maschio" },
+        { value: "Female", label: "Femmina" },
+        { value: "Prefer not to say", label: "Preferisco non dirlo" },
+      ],
+      educationLabel: "Livello di istruzione:",
+      educationOptions: [
+        { value: "Preschool", label: "Scuola dell'infanzia" },
+        { value: "Primary school", label: "Scuola elementare" },
+        { value: "Mid school", label: "Scuola media" },
+        { value: "High school", label: "Scuola superiore" },
+        { value: "Bachelor degree", label: "Laurea triennale" },
+        { value: "Master degree", label: "Laurea magistrale" },
+        { value: "Ph.D.", label: "Dottorato di ricerca" },
+      ],
+      disclaimer: (
+        <span>
+          selezionando la casella accetto i{" "}
+          <a href={`/disclaimer/adult_it.pdf`} target="_blank">
+            termini e le condizioni d’uso
+          </a>{" "}
+          del servizio
+        </span>
+      ),
+      startButtonLabel: "Inizia",
+    },
+    bg: {
+      welcomeLabel:
+        "Моля, попълнете формуляра вдясно, за да започнете историята",
+      languageLabel: "Език:",
+      ageLabel: "Възраст:",
+      genderLabel: "Пол:",
+      groupLabel: "Група сме",
+      genderOptions: [
+        { value: "Male", label: "Мъжки" },
+        { value: "Female", label: "Женски" },
+        { value: "Prefer not to say", label: "Предпочитам да премълча" },
+      ],
+      educationLabel: "Образование:",
+      educationOptions: [
+        { value: "Preschool", label: "Предучилищно" },
+        { value: "Primary school", label: "Начално образование" },
+        { value: "Mid school", label: "Основно образование" },
+        { value: "High school", label: "Средно образование" },
+        { value: "Bachelor degree", label: "Бакалавърска степен" },
+        { value: "Master degree", label: "Магистърска степен" },
+        { value: "Ph.D.", label: "докторантура" },
+      ],
+      disclaimer: (
+        <span>
+          отбелязвайки тук аз приемам{" "}
+          <a href={`/disclaimer/adult_en.pdf`} target="_blank">
+            правилата за употреба
+          </a>{" "}
+          на тази услуга
+        </span>
+      ),
+      startButtonLabel: "Начало",
+    },
   },
-  el: {
-    welcomeLabel:
-      "Συμπληρώστε τη φόρμα στα δεξιά για να ξεκινήσετε την ανάγνωση της ιστορίας",
-    languageLabel: "Γλώσσα:",
-    ageLabel: "Ηλικία:",
-    genderLabel: "Φύλο:",
-    groupLabel: "Είμαι μια ομάδα",
-    genderOptions: [
-      { value: "Male", label: "Άντρας" },
-      { value: "Boy", label: "Αγόρι" },
-      { value: "Female", label: "Γυναίκα" },
-      { value: "Girl", label: "Κορίτσι" },
-      { value: "Prefer not to say", label: "Προτιμώ να μην πω" },
-    ],
-    educationLabel: "Εκπαίδευση:",
-    educationOptions: [
-      { value: "Preschool", label: "Προδημοτική" },
-      { value: "Primary school", label: "Δημοτικό" },
-      { value: "Mid school", label: "Γυμνάσιο" },
-      { value: "High school", label: "Λύκειο" },
-      { value: "Bachelor degree", label: "Πτυχίο" },
-      { value: "Master degree", label: "Μεταπτυχιακό" },
-      { value: "Ph.D.", label: "Διδακτορικό" },
-    ],
-    disclaimer: (
-      <span>
-        by checking the box I accept the{" "}
-        <a href={`/disclaimer/el.html`} target="_blank">
-          terms and conditions of use
-        </a>{" "}
-        of the service
-      </span>
-    ),
-    startButtonLabel: "Αρχή",
-  },
-  it: {
-    welcomeLabel: "Compila il modulo a destra per iniziare a leggere la storia",
-    languageLabel: "Lingua:",
-    ageLabel: "Età:",
-    genderLabel: "Genere:",
-    groupLabel: "Sono un gruppo",
-    genderOptions: [
-      { value: "Male", label: "Maschio" },
-      { value: "Female", label: "Femmina" },
-      { value: "Prefer not to say", label: "Preferisco non dirlo" },
-    ],
-    educationLabel: "Livello di istruzione:",
-    educationOptions: [
-      { value: "Preschool", label: "Scuola dell'infanzia" },
-      { value: "Primary school", label: "Scuola elementare" },
-      { value: "Mid school", label: "Scuola media" },
-      { value: "High school", label: "Scuola superiore" },
-      { value: "Bachelor degree", label: "Laurea triennale" },
-      { value: "Master degree", label: "Laurea magistrale" },
-      { value: "Ph.D.", label: "Dottorato di ricerca" },
-    ],
-    disclaimer: (
-      <span>
-        selezionando la casella accetto i{" "}
-        <a href={`/disclaimer/it.html`} target="_blank">
-          termini e le condizioni d’uso
-        </a>{" "}
-        del servizio
-      </span>
-    ),
-    startButtonLabel: "Inizia",
-  },
-  bg: {
-    welcomeLabel: "Моля, попълнете формуляра вдясно, за да започнете историята",
-    languageLabel: "Език:",
-    ageLabel: "Възраст:",
-    genderLabel: "Пол:",
-    groupLabel: "Група сме",
-    genderOptions: [
-      { value: "Male", label: "Мъжки" },
-      { value: "Female", label: "Женски" },
-      { value: "Prefer not to say", label: "Предпочитам да премълча" },
-    ],
-    educationLabel: "Образование:",
-    educationOptions: [
-      { value: "Preschool", label: "Предучилищно" },
-      { value: "Primary school", label: "Начално образование" },
-      { value: "Mid school", label: "Основно образование" },
-      { value: "High school", label: "Средно образование" },
-      { value: "Bachelor degree", label: "Бакалавърска степен" },
-      { value: "Master degree", label: "Магистърска степен" },
-      { value: "Ph.D.", label: "докторантура" },
-    ],
-    disclaimer: (
-      <span>
-        отбелязвайки тук аз приемам{" "}
-        <a href={`/disclaimer/bg.html`} target="_blank">
-          правилата за употреба
-        </a>{" "}
-        на тази услуга
-      </span>
-    ),
-    startButtonLabel: "Начало",
+  minor: {
+    en: {
+      welcomeLabel:
+        "Please fill the form on the right to start reading the story",
+      languageLabel: "Language:",
+      ageLabel: "Age:",
+      genderLabel: "Gender:",
+      groupLabel: "I'm a group",
+      genderOptions: [
+        { value: "Male", label: "Male" },
+        { value: "Female", label: "Female" },
+      ],
+      educationLabel: "Education:",
+      educationOptions: [
+        { value: "Preschool", label: "Preschool" },
+        { value: "Primary school", label: "Primary school" },
+        { value: "Mid school", label: "Mid school" },
+        { value: "High school", label: "High school" },
+        { value: "Bachelor degree", label: "Bachelor degree" },
+        { value: "Master degree", label: "Master degree" },
+        { value: "Ph.D.", label: "Ph.D." },
+      ],
+      disclaimer: (
+        <span>
+          by checking the box I accept the{" "}
+          <a href={`/disclaimer/minor_en.pdf`} target="_blank">
+            terms and conditions of use
+          </a>{" "}
+          of the service
+        </span>
+      ),
+      startButtonLabel: "Start",
+    },
+    el: {
+      welcomeLabel:
+        "Συμπληρώστε τη φόρμα στα δεξιά για να ξεκινήσετε την ανάγνωση της ιστορίας",
+      languageLabel: "Γλώσσα:",
+      ageLabel: "Ηλικία:",
+      genderLabel: "Φύλο:",
+      groupLabel: "Είμαι μια ομάδα",
+      genderOptions: [
+        { value: "Male", label: "Άντρας" },
+        { value: "Boy", label: "Αγόρι" },
+        { value: "Female", label: "Γυναίκα" },
+        { value: "Girl", label: "Κορίτσι" },
+      ],
+      educationLabel: "Εκπαίδευση:",
+      educationOptions: [
+        { value: "Preschool", label: "Προδημοτική" },
+        { value: "Primary school", label: "Δημοτικό" },
+        { value: "Mid school", label: "Γυμνάσιο" },
+        { value: "High school", label: "Λύκειο" },
+        { value: "Bachelor degree", label: "Πτυχίο" },
+        { value: "Master degree", label: "Μεταπτυχιακό" },
+        { value: "Ph.D.", label: "Διδακτορικό" },
+      ],
+      disclaimer: (
+        <span>
+          by checking the box I accept the{" "}
+          <a href={`/disclaimer/minor_en.pdf`} target="_blank">
+            terms and conditions of use
+          </a>{" "}
+          of the service
+        </span>
+      ),
+      startButtonLabel: "Αρχή",
+    },
+    it: {
+      welcomeLabel:
+        "Compila il modulo a destra per iniziare a leggere la storia",
+      languageLabel: "Lingua:",
+      ageLabel: "Età:",
+      genderLabel: "Genere:",
+      groupLabel: "Sono un gruppo",
+      genderOptions: [
+        { value: "Male", label: "Maschio" },
+        { value: "Female", label: "Femmina" },
+      ],
+      educationLabel: "Livello di istruzione:",
+      educationOptions: [
+        { value: "Preschool", label: "Scuola dell'infanzia" },
+        { value: "Primary school", label: "Scuola elementare" },
+        { value: "Mid school", label: "Scuola media" },
+        { value: "High school", label: "Scuola superiore" },
+        { value: "Bachelor degree", label: "Laurea triennale" },
+        { value: "Master degree", label: "Laurea magistrale" },
+        { value: "Ph.D.", label: "Dottorato di ricerca" },
+      ],
+      disclaimer: (
+        <span>
+          selezionando la casella accetto i{" "}
+          <a href={`/disclaimer/minor_it.pdf`} target="_blank">
+            termini e le condizioni d’uso
+          </a>{" "}
+          del servizio
+        </span>
+      ),
+      startButtonLabel: "Inizia",
+    },
+    bg: {
+      welcomeLabel:
+        "Моля, попълнете формуляра вдясно, за да започнете историята",
+      languageLabel: "Език:",
+      ageLabel: "Възраст:",
+      genderLabel: "Пол:",
+      groupLabel: "Група сме",
+      genderOptions: [
+        { value: "Male", label: "Мъжки" },
+        { value: "Female", label: "Женски" },
+      ],
+      educationLabel: "Образование:",
+      educationOptions: [
+        { value: "Preschool", label: "Предучилищно" },
+        { value: "Primary school", label: "Начално образование" },
+        { value: "Mid school", label: "Основно образование" },
+        { value: "High school", label: "Средно образование" },
+        { value: "Bachelor degree", label: "Бакалавърска степен" },
+        { value: "Master degree", label: "Магистърска степен" },
+        { value: "Ph.D.", label: "докторантура" },
+      ],
+      disclaimer: (
+        <span>
+          отбелязвайки тук аз приемам{" "}
+          <a href={`/disclaimer/minor_en.pdf`} target="_blank">
+            правилата за употреба
+          </a>{" "}
+          на тази услуга
+        </span>
+      ),
+      startButtonLabel: "Начало",
+    },
   },
 };
 
@@ -171,9 +307,12 @@ function WelcomeForm() {
 
   const [language, setLanguage] = useState("it");
   const [age, setAge] = useState(ageOptions[0].value);
-  const [gender, setGender] = useState(LT[language].genderOptions[0].value);
+  const [ageType, setAgeType] = useState("minor");
+  const [gender, setGender] = useState(
+    LT[ageType][language].genderOptions[0].value
+  );
   const [education, setEducation] = useState(
-    LT[language].educationOptions[0].value
+    LT[ageType][language].educationOptions[0].value
   );
   const [isDisclaimerChecked, setIsDisclaimerChecked] = useState(false);
   const [isGroupChecked, setIsGroupChecked] = useState(false);
@@ -205,7 +344,7 @@ function WelcomeForm() {
     <AuthGuard>
       <div className="WelcomeContainer">
         <div className="ImageContainer">
-          <span>{LT[language].welcomeLabel}</span>
+          <span>{LT[ageType][language].welcomeLabel}</span>
         </div>
         <div className="WelcomeForm">
           <div className="LogoContainer">
@@ -220,7 +359,7 @@ function WelcomeForm() {
             </a>
           </div>
           <div className="FormContainer">
-            <label>{LT[language].languageLabel}</label>
+            <label>{LT[ageType][language].languageLabel}</label>
             <Select
               value={language}
               onChange={(e, newValue) => setLanguage(newValue)}
@@ -237,12 +376,19 @@ function WelcomeForm() {
                 checked={isGroupChecked}
                 onChange={() => setIsGroupChecked(!isGroupChecked)}
               />
-              <span>{LT[language].groupLabel}</span>
+              <span>{LT[ageType][language].groupLabel}</span>
             </div>
-            <label>{LT[language].ageLabel}</label>
+            <label>{LT[ageType][language].ageLabel}</label>
             <Select
               value={age}
-              onChange={(e, newValue) => setAge(newValue)}
+              onChange={(e, newValue) => {
+                setAge(newValue);
+                if (newValue === "4-5" || newValue === "6-10") {
+                  setAgeType("minor");
+                } else {
+                  setAgeType("adult");
+                }
+              }}
               sx={{ width: "200px" }}
             >
               {ageOptions.map((age) => (
@@ -251,25 +397,25 @@ function WelcomeForm() {
                 </Option>
               ))}
             </Select>
-            <label>{LT[language].genderLabel}</label>
+            <label>{LT[ageType][language].genderLabel}</label>
             <Select
               value={gender}
               onChange={(e, newValue) => setGender(newValue)}
               sx={{ width: "200px" }}
             >
-              {LT[language].genderOptions.map((gender) => (
+              {LT[ageType][language].genderOptions.map((gender) => (
                 <Option key={gender.label} value={gender.value}>
                   {gender.label}
                 </Option>
               ))}
             </Select>
-            <label>{LT[language].educationLabel}</label>
+            <label>{LT[ageType][language].educationLabel}</label>
             <Select
               value={education}
               onChange={(e, newValue) => setEducation(newValue)}
               sx={{ width: "200px" }}
             >
-              {LT[language].educationOptions.map((edu) => (
+              {LT[ageType][language].educationOptions.map((edu) => (
                 <Option key={edu.value} value={edu.value}>
                   {edu.label}
                 </Option>
@@ -280,14 +426,14 @@ function WelcomeForm() {
                 checked={isDisclaimerChecked}
                 onChange={() => setIsDisclaimerChecked(!isDisclaimerChecked)}
               />
-              {LT[language].disclaimer}
+              {LT[ageType][language].disclaimer}
             </div>
             <Button
               sx={{ width: "200px", mt: 3 }}
               onClick={onSubmit}
               disabled={!isDisclaimerChecked}
             >
-              {LT[language].startButtonLabel}
+              {LT[ageType][language].startButtonLabel}
             </Button>
           </div>
           <div className="DisclaimerContainer">
